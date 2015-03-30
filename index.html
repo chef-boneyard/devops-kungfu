@@ -1,0 +1,1469 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+
+    <title>DevOps Kung fu</title>
+
+    <meta name="description" content="The Introduction to Chef Style DevOps Kung fu">
+    <meta name="author" content="Adam Jacob">
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/chefconf2015.css" id="theme">
+
+    <!-- Code syntax highlighting -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement( 'link' );
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+      document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+
+    <!--[if lt IE 9]>
+    <script src="lib/js/html5shiv.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="reveal">
+
+      <!-- Any section element inside of this container is displayed as a slide -->
+      <div class="slides">
+        <section class="center">
+          <img src="images/chefconf-2015-triangle.png" alt="ChefConf 2015" width="600">
+        </section>
+
+        <section class="center" data-background="images/marvel/iron-fist-1-cover.png">
+          <div class="see-through">
+          <h1>Chef Style DevOps Kung Fu</h1>
+          <p>
+            <small><a href="mailto:adam@chef.io">Adam Jacob</a> / CTO of <a href="http://chef.io">Chef</a> / <a href="http://twitter.com/adamhjk">@adamhjk</a></small>
+          </p>
+          <p>
+          <small>
+            <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Chef Style DevOps Kung fu</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://chef.io" property="cc:attributionName" rel="cc:attributionURL">Chef Software, Inc.</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>. <a href="attribution.html">A full list of incorporated sources is included.</a>
+        </small>
+          </p>
+          </div>
+        </section>
+        <section data-background="images/unique.jpg">
+          <aside class="notes">
+            <h1>Devops</h1>
+            <ul>
+              <li> Devops comes from the lived experience of the practitioner
+              <li> Making it, in all caes, unique to the practitioner
+              <li> We had a lot of overlapping experiences though
+              <li> Relationship to failure
+              <li> High trust, high interaction relationships with each other
+              <li> A penchant for automation
+              <li> A tendency towards self reliance
+              <li> Obsession with metrics and graphs
+              <li> A focus on revenue and availability
+            </ul>
+          </aside>
+        </section>
+
+        <section data-background="images/struggle.jpg">
+          <aside class="notes">
+            <h1>Devops and the struggle for definition</h1>
+            <ul>
+              <li> I think the struggle to define devops comes from this nature
+              <li> You can look at an individual, and see the 'school' they came from
+              <li> If you look at the 10 people I worked with longest, they way they 'do devops' is very, very similar to mine
+              <li> Its not suprise - our experiences are very similar
+              <li> The further you go from there, the more small differences there are
+              <li> In general, the macro trend holds - you can see us all under one umbrella, with many small differences
+            </ul>
+          </aside>
+        </section>
+
+        <section class="center">
+          <img src="images/kung-fu-santa.jpg" alt="Kung Fu Santa">
+          <h1>Gōngfu (功夫)</h1>
+          <p>
+            <ul>
+              <li>功 (gōng) meaning "work", "achievement", or "merit"
+              <li>夫 (fū) often treated as being a word for "man"
+            </ul>
+          </p>
+          <p>
+          <span class="yellow">The excellence achieved through long practice in ones skills</span>
+          </p>
+          <small><a href="http://en.wikipedia.org/wiki/Kung_fu_%28term%29">Source</a></small>
+          <aside class="notes">
+            Kung fu is like that
+            <ul>
+              <li> Originally, it did not mean just to practice martial arts
+              <li> It referred to the process of ones training - the refinement of body and mind, the learning and perfection of your skills
+            </ul>
+          </aside>
+        </section>
+
+        <section class="center" data-background="images/shaolin-masters.jpg">
+          <h1><span class="green">Wushu (武术)</span></h1>
+          <div class="fragment see-through">
+            <ol>
+              <li><span class="blue">Basics</span></li>
+              <li><span class="yellow">Forms</span></li>
+              <li><span class="gold">Application</span></li>
+            </ol>
+          </div>
+          <aside class="notes">
+            <h1>Many styles of Wushu</h1>
+            <ul>
+              <li> Hundreds of different schools
+              <li> They vary widely on what they emphasize
+              <li> But the broad methods are the same
+              <li> Basics - the fundamental internal/external foundation
+              <li> Forms - a series of predermined behaviors that can combine to a continuous way of acting
+              <li> Applications - using your Kung fu in the field, and adapting the basics and forms to your situational awareness
+              Source - http://en.wikipedia.org/wiki/Kung_fu_%28term%29
+            </ul>
+          </aside>
+        </section>
+
+        <section>
+          <img width="75%" src="images/thing.gif" alt="The Thing as Boxer">
+          <aside class="notes">
+            <ul>
+              <li> When you see someone doing it, and you are broadly ignorant, you know its different than boxing
+              <li> When you are someone who knows it well, you can tell the differences right away
+              <li> Its because the basics and forms are different
+              <li> Both are obviously fighters, but only one is Wushu
+              <li> You can have strong kung fu at both boxing and wushu
+              <li> Sound familiar?
+            </ul>
+          </aside>
+        </section>
+
+        <section data-background="images/kung-fu-lunchbox.jpg">
+          <div class="see-through">
+          <h1>Devops Kung fu</h1>
+          <ul>
+            <li> A deep well of <span class="blue">practical philosophy</span>
+            <li> Broad experience, <span class="green">unique</span> to each individual
+            <li> <span class="yellow">Recognizable</span> by the basics and forms
+            <li> <span class="gold">Practically applied</span> to the situations in your life
+          </ul>
+        </div>
+          <aside class="notes">
+          <ul>
+            <li> There is a deep well of practical philosophy
+            <li> There is a broad base of experience, unique to each individual
+            <li> We are recognizably similar
+            <li> There is a way to teach people how to do it
+            <li> It starts with the basics, and everyone must master them
+            <li> It moves to Forms - predetermined behaviors that can be combined into continuous sets of actions
+            <li> It ends in Application - actually doing your Kung fu in the field, using what you have learned
+            <li> TMTOWTDI is true and honest and important
+            <li> However - if you don't know how to do it, you could probably skip the 15+ year journey of difficulaty
+            <li> And practice the basics, learn the forms, and apply them in your life
+          </ul>
+          </aside>
+        </section>
+
+        <section data-background="images/the-purpose-of-argument.jpg">
+          <aside class="notes">
+            <h1>We can and often do argue about what it means</h1>
+            <ul>
+              <li> Those arguments might change what overall makes a form
+              <li> But they don't change its nature
+              <li> We have a common language and pallete for expression of our ideas
+            </ul>
+          </aside>
+        </section>
+
+        <section data-background="images/principles.jpg">
+          <div class="see-through">
+            <h1><span class="blue">DevOps</span> is <span class="green">reinventing</span> how we run our <span class="yellow">businesses</span></h1>
+          </div>
+        </section>
+
+        <section data-background="images/the-marvel-universe.png">
+          <div class="see-through">
+            <h1>Who practices it?</h1>
+            <h2><span class="gold">Everyone</span></h2>
+            <ul>
+              <li> The application will be different, but the principles hold
+              <li> We are not generalists - we are <span class="blue">well connected specialists</span>
+            </ul>
+          </div>
+          <aside class="notes">
+            <ul>
+              <li> CEOs and Executives
+              <li> Managers (Cyclops)
+              <li> Systems Administrators (Beast)
+              <li> Software Developers (Storm)
+              <li> Network Administrators (Kitty Pryde)
+              <li> Security Professionals (Wolverine)
+              <li> Sales Reps (Cannonball)
+              <li> Product Managers (Forge)
+              <li> All of these roles (and more) should practice our Kung fu
+            </ul>
+          </aside>
+        </section>
+
+        <section>
+          <h1>Chef Style DevOps Kung fu</h1>
+          <img src="images/chef-style.jpg" alt="Chef Style">
+          <aside class="notes">
+            <h1>This is my Devops Kung fu</h1>
+            <ul>
+              <li> I call it "Chef Style"
+              <li> It comes from my experience
+              <li> As a systems administrator
+              <li> As a software developer
+              <li> As an entrepreneur
+              <li> As an executive
+              <li> As a human being dedicating my adult life to the internet
+              <li> As a father
+            </ul>
+          </aside>
+        </section>
+
+        <section>
+          <small><span class="blue">None of the below endorse this talk, or Chef Style DevOps Kung fu</span></small>
+          <table class="influences">
+            <tr>
+              <td class="influences">
+                Mark Burgess
+              </td>
+              <td class="influences">
+                Johnny Cash
+              </td>
+              <td class="influences">
+                John Allspaw
+              </td>
+              <td class="influences">
+                Sammy Hagar
+              </td>
+            </tr>
+            <tr>
+              <td class="influences">
+                Nathan Haneysmith
+              </td>
+              <td class="influences">
+                Ronnie James Dio
+              </td>
+              <td class="influences">
+                Tom Thomas
+              </td>
+              <td class="influences">
+                Jesse Leach
+              </td>
+            </tr>
+            <tr>
+              <td class="influences">
+                Christopher Brown
+              </td>
+              <td class="influences">
+                Ben Rockwood
+              </td>
+              <td class="influences">
+                Jesse Robbins
+              </td>
+              <td class="influences">
+                Jez Humble
+              </td>
+            </tr>
+            <tr>
+              <td class="influences">
+                Barry Crist
+              </td>
+              <td class="influences">
+                Thich Naht Hanh
+              </td>
+              <td class="influences">
+                Mitch Hill
+              </td>
+              <td class="influences">
+                Larry Wall
+              </td>
+            </tr>
+            <tr>
+              <td class="influences">
+                Paul Edelhertz
+              </td>
+              <td class="influences">
+                Lao Tzu
+              </td>
+              <td class="influences">
+                Soo Choi
+              </td>
+              <td class="influences">
+                Jennifer Dumas
+              </td>
+            </tr>
+            <tr>
+              <td class="influences">
+                Alex Ethier
+              </td>
+              <td class="influences">
+                Yukihiro Matsumoto
+              </td>
+              <td class="influences">
+                Jeff Hackert
+              </td>
+              <td class="influences">
+                Theo Schlossnagle
+              </td>
+            </tr>
+          </table>
+          <small><span class="gold">This list is not complete, or in order. I ran out of room.</span></small>
+          <aside class="notes">
+            <ul>
+              <li> It draws on many important influences
+            </ul>
+          </aside>
+        </section>
+
+        <section data-background="images/foundational-document.jpg">
+          <div class="see-through">
+            <h1>Foundational Document</h1>
+            <ul>
+              <li>On Github: <a href="http://github.com/chef/devops-kungfu">http://github.com/chef/devops-kungfu</a>
+              <li>Join by PR
+              <li>We work together to develop our principles, forms, and applications
+              <li>Start your own school by forking, removing the names, and changing the content
+            </ul>
+            <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
+          </div>
+          <aside class="notes">
+            <ul>
+              <li> This talk is my foundational document of that Kung fu
+              <li> Once you have watched it, you can join my school
+              <li> We can develop the basics, our forms, and help on application
+              <li> Talib Kweli explained to me that artists amplify the movement they see in the world
+              <li> Marvin Gaye didn't write What's Goin On and <li>then<li> the movement happened
+              <li> The movement happened, and Marvin had to respond to, and amplify it, with his art
+              <li> That is my intenet here - I will use my platform to raise up the voices of those who are doing the work
+              <li> And we can then leverage it as a platform to help each other
+              <li> And to further our aims of having our workplace be a better place
+            </ul>
+          </aside>
+        </section>
+
+        <section data-background="images/Elements_of_Style_cover.jpg" data-background-size="100px" data-background-repeat="repeat">
+          <div class="see-through">
+          <h1>Elements of DevOps</h1>
+          <table>
+            <tr>
+              <td>
+                <span class="blue">Principles</span>
+              </td>
+              <td>
+                (Universal)
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <span class="green">Forms</span>
+              </td>
+              <td>
+                (Shared)
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <span class="yellow">Application</span>
+              </td>
+              <td>
+                (Unique)
+              </td>
+            </tr>
+          </table>
+          </div>
+          <aside class="notes">
+            <ul>
+              <li> The principles we aspire to (How you recognize DevOps when you see it)
+              <li> Wushu calls this the 'basics', but it involves a lot of pushups, and there isn't a lot of pushups in devops
+              <li> This includes a definition of DevOps
+              <li> The forms we use - the actual things we practice, that try and re-enforce and bolster our principles
+              <li> The application - the use of those forms in our actual situation
+              <li> These three things are the evolutionary arc of your practice - in the beginning, you learn from others
+              <li> As you grow, you will use the forms others have used to learn about the deeper meaning and philosophy
+              <li> The more you apply them in practice, the less reliant on the forms you will be - it all just becomes the natural flow
+              <li> Leading you, and anyone else, to be where those of us with already strong Kung Fu are - uniquely suited to our task
+              <li> (It's not about whether you are good at it - it'sa bout the soul of our kung fu)
+            </ul>
+          </aside>
+        </section>
+
+        <section data-background="images/principles.jpg">
+          <div class="see-through">
+          <h1><span class="blue">Principles</span></h1>
+          <small>Universally held beliefs; the foundation of all DevOps styles</small>
+          </div>
+        </section>
+
+        <section data-background="images/save-the-princess.jpg">
+          <div class="see-through fragment">
+            <h1>DevOps</h1>
+            <blockquote>A cultural and professional movement, focused on how we build and operate high velocity organizations, born from the experiences of its practitioners.</blockquote>
+          </div>
+          <aside class="notes">
+            <ul>
+              <li> Focused on how we build and operate - it encompasses the details of how we build things, and the details of how we operate them
+              <li> High velocity organizations - because we aren't very good at operating slow moving organizations; we were built to go fast
+              <li> Born from the experiences of it's practitioners - many of whom were the web innovators - because they were the first ones that had to go fast
+              <li> 'Do not be timid about the scope or the influence - we are re-inventing the way we run businesses"
+            </ul>
+          </aside>
+        </section>
+
+        <section data-background="images/save-the-princess.jpg">
+          <div class="see-through">
+            <h1>Cultural and professional</h1>
+            <ul>
+              <li><span class="yellow">Cultural</span> like Hip Hop, Heavy Metal, or Otaku
+              <li><span class="gold">Professional</span> like an MC, Lead Guitarist, or Animator
+            </ul>
+            <hr>
+            <blockquote><small><b>DevOps</b>: A cultural and professional movement, focused on how we build and operate high velocity organizations, born from the experiences of its practitioners.</small></blockquote>
+          </div>
+          <aside class="notes">
+            <ul>
+              <li> Focused on how we build and operate - it encompasses the details of how we build things, and the details of how we operate them
+              <li> High velocity organizations - because we aren't very good at operating slow moving organizations; we were built to go fast
+              <li> Born from the experiences of it's practitioners - many of whom were the web innovators - because they were the first ones that had to go fast
+              <li> 'Do not be timid about the scope or the influence - we are re-inventing the way we run businesses"
+            </ul>
+          </aside>
+        </section>
+
+        <section data-background="images/save-the-princess.jpg">
+          <div class="see-through">
+            <h1>Focused on how we build and operate</h1>
+            <ul>
+              <li>Encompasses the details of how we <span class="yellow">build</span> things
+              <li>And how we <span class="gold">operate</span> them over time
+            </ul>
+            <hr>
+            <blockquote><small><b>DevOps</b>: A cultural and professional movement, focused on how we build and operate high velocity organizations, born from the experiences of its practitioners.</small></blockquote>
+          </div>
+          <aside class="notes">
+            <ul>
+              <li> High velocity organizations - because we aren't very good at operating slow moving organizations; we were built to go fast
+              <li> Born from the experiences of it's practitioners - many of whom were the web innovators - because they were the first ones that had to go fast
+              <li> 'Do not be timid about the scope or the influence - we are re-inventing the way we run businesses"
+            </ul>
+          </aside>
+        </section>
+
+        <section data-background="images/save-the-princess.jpg">
+          <div class="see-through">
+            <h1>High velocity organizations</h1>
+            <ul>
+              <li>Our experiences were in building high velocity organizations
+              <li>The same principles applied to low velocity organizations bring instability
+            </ul>
+            <hr>
+            <blockquote><small><b>DevOps</b>: A cultural and professional movement, focused on how we build and operate high velocity organizations, born from the experiences of its practitioners.</small></blockquote>
+          </div>
+          <aside class="notes">
+            <ul>
+              <li> Born from the experiences of it's practitioners - many of whom were the web innovators - because they were the first ones that had to go fast
+              <li> 'Do not be timid about the scope or the influence - we are re-inventing the way we run businesses"
+            </ul>
+          </aside>
+        </section>
+
+        <section data-background="images/save-the-princess.jpg">
+          <div class="see-through">
+            <h1>Born from the experiences of its practitioners</h1>
+            <ul>
+              <li>Most of whom were <span class="yellow">web innovators</span>
+              <li>The <span class="gold">first explorers</span> of DevOps
+            </ul>
+            <hr>
+            <blockquote><small><b>DevOps</b>: A cultural and professional movement, focused on how we build and operate high velocity organizations, born from the experiences of its practitioners.</small></blockquote>
+          </div>
+          <aside class="notes">
+            <ul>
+              <li> 'Do not be timid about the scope or the influence - we are re-inventing the way we run businesses"
+            </ul>
+          </aside>
+        </section>
+
+        <section>
+          <h2>Design for the <span class="blue">safety</span>, <span class="green">contentment</span>, <span class="yellow">knowledge</span> and <span class="gold">freedom</span> of both your peers and your customers.</h2>
+          <aside class="notes">
+            <ul>
+              <li>Design is fundamental</li>
+              <li>Each choice you make needs to make life better for the humans involved</li>
+              <li>That also leads to better business outcomes, as we'll learn later</li>
+              <li>Ultimately, the most scalable, fastest systems are also the ones that are best for the humans invovled, most of the time</li>
+            </ul>
+          </aside>
+        </section>
+        <section data-background="images/safety.jpg">
+          <div class="see-through">
+            <h1>Safety</h1>
+            <ul>
+              <li>Human safety</li>
+              <li>Information safety</li>
+              <li>The ability for individuals to act without fear of unintended consequences</li>
+            </ul>
+            <small>Safety is a slider – different systems have different thresholds<p><a href="https://flic.kr/p/nBZ9Mx">Original Photo</a></small>
+          </div>
+          <aside class="notes">
+            <ul>
+              <li>Imagine you were early days at twitter</li>
+              <li>The system wasn't human safety critical, in your mind</li>
+              <li>Until it became a source of human saftey and communication during countless revolutions</li>
+            </ul>
+          </aside>
+        </section>
+        <section data-background="images/contentment.jpg">
+          <div class="see-through">
+            <h1>Contentment</h1>
+            <p>Contentment is about being satisfied with what you have.</p>
+            <blockquote>
+              Happiness is not a goal – it’s a by-product of a life well lived
+              <br/>- Eleanor Roosevelt
+            </blockquote>
+            <small>
+              <a href="https://flic.kr/p/72AXzX">Original Image</a>
+            </small>
+          </div>
+          <aside class="notes">
+            <ul>
+              <li>Happiness is fleeting</li>
+              <li>If you are in trouble, contentment helps you make better decisions</li>
+              <li>Think about a brutal on call week - if the systems that support you are good, you survive</li>
+            </ul>
+          </aside>
+        </section>
+        <section data-background="images/knowledge.jpg">
+          <div style="padding:20px; background-color:#000000; opacity:0.90;">
+            <h1>Knowledge</h1>
+            <p>Access to knowledge is a leading indicator of social progress.</p>
+            <p>The goal isn’t to minimize needed knowledge – its to provide access to the wealth of it, when we need it.</p>
+            <small>
+              <a href="https://flic.kr/p/51wXrK">Original Image</a>
+            </small>
+          </div>
+          <aside class="notes">
+            <ul>
+              <li>The right knowledge, at the right time</li>
+              <li>Think about PaaS - its awesome you just git push</li>
+              <li>Until you are Rap Genius and heroku changes the router and everything sucks and you don't know why</li>
+              <li>Which doesn't make PaaS awful - at a different level of criticality, who cares?</li>
+            </ul>
+          </aside>
+        </section>
+        <section data-background="images/freedom.jpg">
+          <div class="see-through" style="font-size: 60%;">
+            <blockquote>
+              The power or right to act, speak, or think as one wants without hindrance or restraint.<br/> – The Internet
+            </blockquote>
+            <p>We should be empowering ourselves and others to act, speak, and think as they need to with less hindrance.</p>
+            <small><a href="https://flic.kr/p/5anoq">Original Image</a></small>
+          </div>
+          <aside class="notes">
+            <ul>
+              <li>The Big Web got this right</li>
+              <li>Empower individuals to work as they see fit</li>
+              <li>Trust them to do the right things</li>
+              <li>Build systems that increase the trust needed to allow more freedom</li>
+            </ul>
+          </aside>
+        </section>
+
+        <section data-background="images/lego-people.jpg">
+          <!-- <img src="images/people-product-company.png" width="600" alt="People over product over company"> -->
+          <div style="background-color: #53C6e2;">
+            <h1> People </h1>
+          </div>
+          <hr>
+          <div style="background-color: #71C5AF;">
+            <h1> Products </h1>
+          </div>
+          <hr>
+          <div style="background-color: #FDB714;">
+            <h1> Companies </h1>
+          </div>
+
+          <aside class="notes">
+            <h1>People -> Product -> Company</h1>
+            <ul>
+              <li> Both the producer and the consumer
+              <li> When yoyu do the right thing for the people, the right things happen for the product and the company
+            </ul>
+          </aside>
+        </section>
+
+        <section data-background="images/silent-bob.jpg">
+          <div class="see-through">
+          <h1>We are Lean</h1>
+          <ul>
+            <li> Eliminate non-value-added action (Waste/Muda)
+            <li> Pull over Push
+            <li> Kaizen (Continuous Improvement)
+            <li> Kaikaku (Disruptive Change)
+            <li> Small Batch + Experimentation
+          </ul>
+          <aside class="notes">
+            <ul>
+              <li> Eliminate things that do not add value to the outcome
+              <li> The "Pull" of demand aligns process and resources, rather than the "Push" of central planning and prediction
+              <li> Always be improving the way you work
+              <li> When you need to incorporate things that dramatically alter the way you work, recognize that, and flip the table
+              <li> Favor smaller batches and experimentation
+            </ul>
+          </aside>
+        </section>
+
+        <section data-background="images/fail.jpg">
+          <aside class="notes">
+            <ul>
+              <li>Failure is a learning opportunity
+              <li>a status quo event
+              <li>not an anomaly
+            </ul>
+          </aside>
+        </section>
+
+        <section data-background="images/donut-machine.jpg">
+          <h1>Ubiquitous Workflow Automation</h1>
+          <aside class="notes">
+            <ul>
+              <li>Makes the easy path flow with our principles
+              <li> Make Conway's law work for you
+              <li> organizations which design systems ... are constrained to produce designs which are copies of the communication structures of these organizations
+            </ul>
+          </aside>
+        </section>
+
+        <section data-background="images/diverse.jpg">
+          <div class="see-through">
+            <h1>Diversity</h1>
+          </div>
+          <aside class="notes">
+            <ul>
+              <li> is good, both in thought, opinion, experience, and background
+              <li> this is sweeping kung fu - you need help
+              <li> Voices, stupdity, similarity
+              <li> You want harmony, thinking in different ways, bringing their skills to bear
+              <li> Good D+D parites are diverse
+              <li> We are not generalists - we are highly diverse specialists with high empathy and connection
+            </ul>
+          </aside>
+        </section>
+
+        <section data-background="images/daredevil-stick.png">
+          <div class="see-through">
+            <h1><span class="green">Forms</span></h1>
+            <small>Shared between many styles; emphasis varies from style to style</small>
+          </div>
+          <aside class="notes">
+            <ul>
+              <li> There are probably more, but these are core to Chef Style
+              <li> There are many, so we are going to go fast
+            </ul>
+          </aside>
+        </section>
+
+        <section data-background="images/purpose.jpg">
+          <div class="see-through fragment">
+            <ul>
+              <li> Make it <span class="blue">public</span>
+              <li class="fragment"> Shoot for <span class="green">one sentence</span>
+              <li class="fragment"> Include the <span class="yellow">people</span> you are trying to help
+              <li class="fragment"> Include your <span class="gold">product</span>
+              <li class="fragment"> Include the <span class="blue">change</span> the people you are helping will see
+            </ul>
+            <blockquote class="fragment">
+              The most enduring and transformative companies use Chef to become fast, efficient, and innovative software driven organizations
+            </blockquote>
+          </div>
+          <aside class="notes">
+            <ul>
+              <li> Need a sense of clearly defined purpose thats bigger than the task at hand
+              <li> Sources of engagement
+              <li> Gallup Q12
+              <li> Write it down publicly
+              <li> Always refer back to it in every internal communication
+              <li> Shoot for one sentence
+              <li> Include the people you are trying to help
+              <li> Include your product
+              <li> Include the change the people you are helping will see
+              "The most enduring and transformative companies use Chef to become fast, efficient, and innovative software driven organizations"
+              (Contentment, Knowledge, Freedom)
+              (People over Product over Company)
+              (Lean Product Development)
+            </ul>
+          </aside>
+        </section>
+
+        <section data-background="images/belief.jpg">
+          <div class="see-through fragment">
+            <ul>
+              <li> What brings about <span class="blue">good outcomes</span> in your environment
+              <li class="fragment"> Write them down, make them <span class="green">public</span>
+              <li class="fragment"> Include the <span class="yellow">principles of DevOps</span>
+              <li class="fragment"> Mix in the things that are <span class="gold">unique</span> to your industry/problem
+            </ul>
+            <blockquote class="fragment">
+              We build software for our users; we do what is right for them.<br> (The Right Hard Thing)
+            </blockquote>
+          </div>
+          <aside class="notes">
+            <ul>
+              <li> Remember to use active voice
+              <li> Its okay to not be perfect! Nobody is!
+            </ul>
+          </aside>
+        </section>
+
+        <section data-background="images/captain-marvel.jpg">
+          <div class="see-through fragment">
+            <h1>Empowered teams</h1>
+            <ul>
+              <li class="fragment">Permission to <span class="blue">act</span>
+              <li class="fragment">Paired with the <span class="green">context</span> to make good decisions
+              <li class="fragment">With leaders who care about your <span class="yellow">purpose</span>
+              <li class="fragment">And share your <span class="gold">beliefs</span>
+            </ul>
+          </div>
+          <aside class="notes">
+            <ul>
+              <li> Empowerment
+              <li> Permission to act
+              <li> Context to make good decisions
+              <li> Access to help, guidance, and more context
+              <li> Find leaders who
+              <li> Care about your purpose
+              <li> Align with your beliefs
+              <li> Have leadership as a talent
+              <li> Holding of context and caring for your subordinates
+              <li> Be available for context and caring at any time - up to senior leaders, down to individuals
+            </ul>
+          </aside>
+        </section>
+
+        <section data-background="images/wu-tang-financial.jpg" data-background-size="700px" data-background-color="#FFFFFF">
+          <div class="see-through fragment" style="color: #FFFFFF">
+            <h1 style="color: #ffffff">Form diverse bonds</h1>
+            <ul>
+              <li class="fragment"> Take people to lunch, or have meetings, with people <span class="blue">outside your specialty</span>
+              <li class="fragment"> Ask them what they do, and try and understand their <span class="green">problems and perspective</span>
+              <li class="fragment"> Legal, Finance, Sales, Marketing, Business Development, Software Development, Systems Administrators, Security Profesionals, Product
+            </ul>
+          </div>
+          <aside class="notes">
+            <ul>
+              <li> Take people to lunch, or have meetings, outside your specialty
+              <li> Ask them what they do, and try and understand
+              <li> You need to talk to:
+              <li> Legal
+              (Ask them what the role of a lawyer is, and how you can help make any interactions you have smooth)
+              <li> Finance
+              (Ask them what the role of a finance is, what key metrics they watch, and how you can help)
+              <li> Sales
+              (Ask them what their quota is, what do they struggle with at customers, and how can you help them make their number)
+              <li> Marketing
+              (Ask them what message is resonating, why, and how they see the market evolving)
+              <li> Business Development
+              (Ask them what partners are moving the needle, how they think about those arrangements, and whats on the horizon)
+              <li> Software Development
+              (Ask them what they are building, and why it matters, and what they are excited about in the future)
+              <li> Systems Administrators
+              (Ask them about availability, what do they think is the biggest limit to your organizational efficiency)
+              <li> Security Professionals
+              (Ask them how they evaluate your business and technology in terms of risk, how you can help)
+              <li> Product
+              (Ask them what they think the gaps in your product are, and to talk about the last 5 customers they've met)
+            </ul>
+          </aside>
+        </section>
+
+        <section data-background="images/anarky.jpg">
+          <div class="see-through fragment">
+            <h1>Build consensus on important decisions</h1>
+            <ul>
+              <li class="fragment"> Use your <span class="blue">bonds</span> to circulate plans with stakeholders
+              <li class="fragment"> <span class="green">Incorporate</span> their criticism and feedback into the plan
+              <li class="fragment"> <span class="yellow">Present</span> to the group
+              <li class="fragment"> Ask for <span class="gold">consensus</span>
+            </ul>
+          </div>
+          <aside class="notes">
+            <ul>
+              <li> Before you try and do a major decision, make sure you know the answer going in
+              <li> Have a written down plan, and why you think its important
+              <li> Talk to all the key stakeholders, preferably 1:1
+              <li> Get their criticism and feedback
+              <li> Update your plan, incorporating thier feedback and criticsim (Make It Theirs)
+              <li> Present plan to the group
+              <li> Get it done
+            </ul>
+          </aside>
+        </section>
+
+        <section data-background-color="#FFFFFF">
+          <h2>Strong value propositions</h2>
+          <img src="images/value-prop.png" width="600" alt="Value Proposition">
+          <ul>
+            <li class="fragment"> <span class="blue">Pain Killers</span>, not vitamins
+            <li class="fragment"> Make something people <span style="color: #FF0000">♡</span>
+            <li class="fragment"> <span class="green">Needs</span> not wants (one customer wants a feature; many customers need a feature)
+          </ul>
+          <aside class="notes">
+            <h1>Make products that have strong value propositions</h1>
+            <ul>
+              <li> Product/Pain Relievers/Gain Creators
+              <li> Map to Customer Jobs, Customer Pains, and Customer Gains
+              <li> Pain Killers not vitamins
+              <li> Make something people LOVE
+              <li> Needs not wants (customer wants a feature, customer(s) need features)
+              <li> How to identify the opportunities
+              <li> Call out customer pain through engagement
+              <li> Interview customers to learn about their problems
+              <li> Solve the pain you experience yourself
+              <li> Write down your ideas for products
+              What is it? (product)
+              Who is it for? (target customers)
+              What problem does it solves and why does it matter? (problem & pain)
+              How does it work? (pain relievers & gain creators)
+              What is unique about it? (uniqueness)
+              What is the value proposition? (value)
+              How do we make money? (cost & revenue)
+            </ul>
+          </aside>
+        </section>
+
+        <section data-background="images/roadmap.jpg">
+          <div class="see-through fragment">
+            <h1>Build a roadmap</h1>
+            <ol>
+              <li class="fragment"> Start with your <span class="green">vision</span>
+              <li class="fragment"> Align with <span class="blue">customer feedback</span>
+              <li class="fragment"> <span class="yellow">Balance</span> innovation with customer needs
+              <li class="fragment"> Group them into <span class="gold">themes</span>, with an outcome for each
+              <li class="fragment"> Distill those into <span class="green">features</span>, and validate with customers
+            </ol>
+                <ul>
+                  <li class="fragment">Your THEMES <span class="blue">should hold</span>
+                  <li class="fragment">Your OUTCOMES <span class="green">might hold</span>
+                  <li class="fragment">Your FEATURES <span class="yellow">will change</span>
+                </ul>
+          </div>
+        <aside class="notes">
+          <ul>
+            <li> Lead with vision
+            <li> Align with customer feedback
+            <li> Balance innovation with customer needs
+            <li> Group them into themes
+            <li> Define the outcomes for the themes
+            <li> Distill those into features, and validate with customers
+            <li> Iterate on features according to vision and feedback
+            <li> Put it on a grid
+            <li> Focus on themes
+            <li> The power of the parenthetical
+            <li> Keep it alive through iteration
+            <li> Your THEMES should hold - your OUTCOMES might hold, and your FEATURES should shift all the time
+          </ul>
+        </aside>
+        </section>
+
+        <section data-background-color="#FFFFFF">
+          <h1>Always have delighters</h1>
+          <img src="images/delighters.png" alt="delighters" width="100%">
+          <aside class="notes">
+            This is a simplified Kano model of product development
+            <h1>Always have delighters</h1>
+            <ul>
+              <li> (The Creating Delight slide)
+            </ul>
+          </aside>
+        </section>
+
+        <section>
+          Build features iteratively
+        <table>
+          <tbody>
+            <tr>
+              <td></td>
+              <th>1</th>
+              <th>2</th>
+              <th>3</th>
+            </tr>
+            <tr>
+              <td style="vertical-align: middle;">Paint the Mona Lisa<br>
+                <span class="blue">Incremental</span></td>
+              <td class="fragment" ><img width="150" src="images/incremental-1.png" alt="Mona lisa head"></td>
+              <td class="fragment" ><img width="150" src="images/incremental-2.png" alt="Mona lisa head/arm"></td>
+              <td class="fragment" ><img width="150" src="images/incremental-3.png" alt="Mona lisa whole"></td>
+            </tr>
+            <tr>
+              <td class="fragment" style="vertical-align: middle;">Woman in pastoral setting<br><span class="gold">Iterative</span></td>
+              <td class="fragment"><img width="150" src="images/iterative-1.png" alt="Mona lisa sketch"></td>
+              <td class="fragment"><img width="150" src="images/iterative-2.png" alt="Mona lisa wash"></td>
+              <td class="fragment"><img width="150" src="images/incremental-3.png" alt="Mona lisa whole"></td>
+            </tr>
+          </tbody>
+        </table>
+        <p>
+        <small>Awesome analogy from <a href="http://www.agileproductdesign.com/blog/dont_know_what_i_want.html">Jeff Patton</a></small>
+        </p>
+        <aside class="notes">
+            Mona lisa slide
+          <ul>
+            <li> You don't have debt if nobody is using it
+            <li> Don't mistake "doing it right" for doing it "incrementally"
+            <li> It's not iterating if you only do it once
+            <li> That means deploying these features! It's all connected!
+          </ul>
+        </aside>
+        </section>
+
+        <section data-background="images/risk.jpg">
+          <div class="see-through fragment">
+            <h1>Manage Risk</h1>
+            <ul>
+              <li class="fragment"> <span class="blue">Small batches</span>, near term hypothesis
+              <li class="fragment"> <span class="green">Validation</span> comes from customers
+              <li class="fragment"> Introduce <span class="yellow">near-term volatility</span> to gain <span class="gold">decreased long-term risk</span>
+            </ul>
+          </div>
+          <aside class="notes">
+            <ul>
+              <li> You are building for high velocity
+              <li> So small batches, with near term hypothesis
+              <li> Shipping the smallest and simplest thing possible to help
+              Get closer to our objectives
+              Get feedback
+              learn
+              validate
+              De-risk
+              <li> Experiments and validation with customers
+              <li> You introduce near-term volatility to gain decreased long-term failure
+              <li> Stylistic difference - there wasn't a way to be declarative about stylistic choices
+              <li> There is no reason you have to act drunk when doing drunk boxing
+            </ul>
+          </aside>
+        </section>
+
+        <section data-background="images/scale.jpg">
+          <div class="see-through fragment">
+            <h1><span class="gold">Do not worry about scale</span></h1>
+            <p>
+            <span>Until you should</span>
+            <p>
+            <span class="blue">Way later than you think</span>
+          </div>
+          <aside class="notes">
+            Scaleing your company, your software, your kung fu
+          </aside>
+        </section>
+
+        <section data-background="images/execution.jpg">
+          <div class="see-through fragment">
+            Solve theory arguments with execution
+          </div>
+          <aside class="notes">
+            <ul>
+              <li> Theory is fun for yak shaving
+              <li> Reality is complex
+              <li> Execution is all that matters
+            </ul>
+          </aside>
+        </section>
+
+        <section data-background="images/demos.jpg">
+          <div class="see-through fragment">
+            <ul>
+              <li> <span class="blue">Weekly</span>
+              <li class="fragment"> <span class="green">Anyone</span> with anything to show
+              <li class="fragment"> Invite <span class="yellow">everyone</span>
+              <li class="fragment"> <span class="gold">Record</span> it and post it internally
+            </ul>
+          </div>
+          <aside class="notes">
+            <ul>
+              <li> Helps you focus on ITERATIVE vs INCREMENTAL (hard to demo one arm of the mona lisa)
+              <li> Teams that aren't demo-ing are probably being INCREMENTAL
+            </ul>
+          </aside>
+        </section>
+
+        <section data-background="images/polyglot.jpg">
+        <h1>Choose languages and tools that fit the job</h1>
+        <div class="see-through fragment">
+          <ul>
+            <li> We are <span class="blue">all polyglots</span>
+            <li> Learning new languages and tools is one of the <span class="green">great joys</span> of our industry
+            <li> Small batch + <span class="yellow">iterative development</span> protects you from risk
+          </ul>
+        </div>
+        </section>
+
+        <section data-background="images/git-r-done.jpg">
+          <aside class="notes">
+            <ul>
+              <li>Use source code control</li>
+              <li> You must have lightweight feature branches
+            </ul>
+          </aside>
+        </section>
+
+        <section data-background="images/bug.jpg">
+          <div class="see-through fragment">
+            <h1>Have a bug database</h1>
+            <ul>
+              <li> Triage and <span class="blue">prioritize</span> the bugs
+              <li> Be <span class="green">nice</span> to your customers
+            </ul>
+          </div>
+        </section>
+
+        <section data-background="images/integrate.jpg">
+          <div class="see-through fragment">
+            <h1>Continuous Integration</h1>
+            <ul>
+              <li class="fragment"> Always <span class="blue">integrate</span> branches to master
+              <li class="fragment"> They should be <span class="green">short lived</span>, iterative branches
+              <li class="fragment"> <span class="yellow">Fix the build</span> when it goes red.
+            </ul>
+          </div>
+        </section>
+
+        <section data-background="images/the-watcher.jpg">
+          <div class="see-through fragment">
+            <h1>The <span class="gold">four-eye</span> rule</h1>
+          </div>
+          <aside class="notes">
+            No change happens without at least four eyes on it
+          </aside>
+        </section>
+
+        <section data-background="images/storm-cyclops.png">
+          <div class="see-through fragment">
+            <h1>Write tests</h1>
+            <ul>
+              <li class="fragment"> <span class="green">Unit</span> test (a single function)
+              <li class="fragment"> <span class="blue">Integration</span> tests (multiple classes/units)
+              <li class="fragment"> <span class="yellow">Functional</span> tests (user-oriented, high level, full stack)
+              <li class="fragment"> <span class="gold">Smoke</span> tests (quickly determine if the system is "working")
+            </ul>
+          </div>
+          <aside class="notes">
+            <ul>
+              <li class="fragment"> Write <span class="blue">one test at a time</span>S
+            </ul>
+          </aside>
+        </section>
+
+        <section data-background="images/cd.jpg">
+          <aside class="notes">
+            Martin Fowler
+            <blockquote>
+              Continuous Delivery is a software development discipline where you build software in such a way that the software can be released to production at any time.
+            </blockquote>
+          </aside>
+        </section>
+
+        <section data-background="images/single-path.jpg">
+          <div class="see-through fragment">
+            <h1>One path for change</h1>
+            <img src="images/delivery.png" alt="delivery">
+            <ul>
+              <li class="fragment"> The way change moves through your organization is <span class="blue">fixed</span>
+              <li class="fragment"> Designed to <span class="green">re-enforce your principles</span> and aid flow
+              <li class="fragment"> <span class="yellow">Flexible at the level of execution</span>
+            </ul>
+          </div>
+          <aside class="notes">
+            <ul>
+              <li> Avoid using words like
+              <li> Production
+              <li> Staging
+              <li> QA
+              <li> Those are activities and locations all rolled in to one
+              <li> They happen ALL OVER The workflow
+            </ul>
+          </aside>
+        </ul>
+        </section>
+
+        <section data-background="images/spaceship.png">
+          <div class="see-through fragment">
+          <h1>Code goes through the same workflow</h1>
+            <ul>
+              <li class="fragment"> <span class="blue">Applications</span> are code
+              <li class="fragment"> <span class="green">Infrastructure</span> is code
+            </ul>
+          </div>
+        </section>
+
+        <section data-background="images/vacancy.jpg">
+          <div class="see-through fragment">
+            <h1>Focus on Availability</h1>
+            <ul>
+              <li class="fragment"> Availability = <span class="blue">uptime/uptime+downtime</span>
+              <li class="fragment"> Focus your efforts on reducing <span class="green">mean time to diagnose</span> and <span class="yellow">mean time to repair</span>
+              <li class="fragment"> <span class="gold">Failure is inevitable</span>, its how you detect and react that matter most
+            </ul>
+          </div>
+        </section>
+
+        <section data-background="images/metrics.jpg">
+          <div class="see-through fragment">
+            <h1>Collect metrics</h1>
+            <ul>
+              <li class="fragment"> From the operating system, network, applications, and your process
+              <li class="fragment"> <span class="yellow">High resolution matters</span>
+              <li class="fragment"> Have as <span class="gold">few systems</span> as possible
+            </ul>
+          </div>
+        </section>
+
+        <section data-background="images/spoons.jpg">
+          <div class="see-through fragment">
+            <h1>Plan for capacity</h1>
+            <ul>
+              <li class="fragment"> Identify <span class="blue">key metrics</span>
+              <li class="fragment"> Put them on a <span class="green">graph</span>
+              <li class="fragment"> Set a <span class="yellow">limit</span>
+              <li class="fragment"> Plot a <span class="gold">trend line</span>
+              <li class="fragment"> Expand your <span class="blue">time horizon</span>
+            </ul>
+          </div>
+        </section>
+
+        <section data-background="images/alert.jpg">
+          <div class="see-through fragment">
+            <h1>Only alert on what is actionable</h1>
+            <ul>
+              <li class="fragment"> Get the attention of the <span class="blue">right humans</span>
+              <li class="fragment"> As <span class="green">few alerts</span> as possible
+              <li class="fragment"> Routed to the people who can take <span class="yellow">action</span>
+              <li class="fragment"> Start with the <span class="gold">is it up</span> alert
+            </ul>
+          </div>
+        </section>
+
+        <section data-background="images/f15.jpg">
+          <div class="fragment">
+            <h1>Practice incident response</h1>
+            <img src="images/ooda.svg" alt="ooda">
+            <div class="see-through">
+            <ul>
+              <li> <span class="green">Orient</span> is the step that matters most
+            </ul>
+          </div>
+          </div>
+        </section>
+
+        <section data-background="images/f15.jpg">
+            <h1>Practice incident response</h1>
+            <div class="see-through">
+            <ul>
+              <li> The First Responder is the default <span class="blue">Incident Commander</span>
+              <li class="fragment"> <span class="green">Decides</span> what to do next
+              <li class="fragment"> <span class="yellow">Coordinates</span> resources
+              <li class="fragment"> <span class="gold">Communicates</span> status
+              <li class="fragment"> Not about rank
+              <li class="fragment"> There is only ONE Incident Commander.
+            </ul>
+          </div>
+        </section>
+
+        <section data-background="images/death.png">
+          <div class="fragment see-through">
+            <h1>Incidents lead to Post Mortems</h1>
+            <ul>
+              <li class="fragment"> <span class="blue">Invoke the space</span>: we are here to learn, not to blame
+              <li class="fragment"> <span class="green">Describe</span> the incident
+              <li class="fragment"> Establish the <span class="yellow">timeline</span>
+              <li class="fragment"> Identify <span class="gold">contributing factors</span>
+              <li class="fragment"> Describe customer <span class="blue">impact</span>
+              <li class="fragment"> Describe <span class="green">remediation</span> tasks
+              <li class="fragment"> Describe <span class="yellow">improvement</span> tasks for response process
+            </ul>
+          </div>
+        </section>
+
+        <section data-background="images/mark2.jpg">
+          <div class="fragment see-through">
+            <h1>Use scalable systems design</h1>
+            <ul>
+              <li class="fragment"> <span class="blue">Autonomous actors</span>, responsible for themselves
+              <li class="fragment"> Making <span class="green">progress toward their goal</span>
+              <li class="fragment"> Making <span class="yellow">clear promises</span> to other actors
+              <li class="fragment"> Having those actors <span class="gold">evaluate the quality</span> of those promises
+            </ul>
+          </div>
+        </section>
+
+        <section data-background="images/humility.jpg">
+          <div class="see-through fragment">
+            <ul>
+              <li> About your <span class="blue">code</span>
+              <li> About your <span class="green">position</span>
+              <li> About your <span class="yellow">knowledge</span>
+            </ul>
+          </div>
+        </section>
+
+        <section data-background="images/simplicity.jpg">
+          <div class="fragment see-through">
+            <h1><span class="yellow">Simplicity</span></h1>
+            <hr>
+            <h1><span class="blue">Extensibility</span></h1>
+            <hr>
+            <h1><span class="green">Re-use</span></h1>
+          </div>
+        <aside class="notes">
+          <ul>
+            <li> Conway's Law “Interpersonal variability, that is the capability and behavior differences between programmers using the same language, tends to account for more differences between programs than a change of the programming language.”
+            <li> Make a component as simple as it can be, but no more
+            <li> Design for re-use when you can
+            <li> CERN and the LXC - one framework for four experiemnts
+            <li> The number is 3 - you don't need a hundred re-use points
+            <li> Can you get 1 less than the numebr of actors 
+            <li> Make extensible system
+            <li> There is a loop that gets you here
+            <li> Complicated
+            <li> Break down
+            <li> Simple
+          </ul>
+        </aside>
+        </section>
+
+        <section data-background="images/application.jpg">
+            <div style="padding: 100px;">
+              &nbsp;
+            </div>
+            <div class="see-through">
+              Unique to the individual
+            </div>
+          <aside class="notes">
+            <ul>
+              <li> Those are the forms we practice - the components of our DevOps Kung Fu
+              <li> Now we need to talk about what it means to take our Kung Fu into the world
+            </ul>
+          </aside>
+        </section>
+
+        <section data-background="images/training.jpg">
+          <div class="see-through fragment">
+            <h1>Safety in technique</h1>
+            <ul>
+              <li> Remember your <span class="blue">principles</span>
+              <li> Practice your <span class="green">forms</span>
+              <li> Use your <span class="yellow">discernment</span>
+            </ul>
+          </div>
+        <aside class="notes">
+          <ul>
+              <li> When you use your core principles, and you use your discernment, you are in the right place
+              <li> The process by which we do things is what matters
+              <li> It is training and the situation and experience that brings you to the right value
+            </ul>
+        </aside>
+        </section>
+
+        <section data-background="images/unique.jpg">
+          <aside class="notes">
+            <ul>
+              <li> The next step is application - actually doing all of these things in your organization
+              <li> Given a long enough application, you will develop your own style - what works, what doesn't
+            </ul>
+          </aside>
+        </section>
+
+        <section data-background="images/dojo.png">
+          <aside class="notes">
+            <ul>
+              <li> Before you go off and fight the whole school
+              <li> We have a way for you to pracitce the application of your forms in a safe way
+              <li> Which also happens to be the right way to start bringing devops in to your organization
+            </ul>
+          </aside>
+        </section>
+
+        <section>
+          <img src="images/devops-circle.png" alt="devops circle">
+          <aside class="notes">
+            <ul>
+              <li> Take a business problem
+              <li> Bring together all the stakeholders
+              <li> Practice your Kung Fu together for 8 weeks, on that problem
+              <li> Lets you feel what its like, increases your bonds to each other, is specific to your problem
+              <li> Lets you build consensus together
+              <li> It ends - so there is low risk. The time box matters.
+            </ul>
+          </aside>
+        </section>
+
+        <section data-background="images/kiss.jpg">
+          <div class="see-through fragment">
+            <h1>Stage 1 - Problem Selection</h1>
+            <ul>
+              <li> <span class="yellow">Small enough</span> to have a meaningful iteration in 8 weeks
+              <li> <span class="gold">Vertical</span> not Horizontal
+            </ul>
+          </div>
+        </section>
+
+        <section data-background="images/kiss.jpg">
+          <div class="see-through">
+            <h1>Stage 2 - Purpose, Beliefs and Teams</h1>
+            <ul>
+              <li class="fragment"> Write down your <span class="blue">purpose</span>
+              <li class="fragment"> Write down your <span class="green">beliefs</span>
+              <li class="fragment"> <span class="yellow"> Empower </span> the team to act
+              <li class="fragment"> Be available for <span class="gold">context</span>
+            </ul>
+          </div>
+        </section>
+
+        <section data-background="images/kiss.jpg">
+          <div class="see-through">
+            <h1>Stage 3 - Product Development</h1>
+            <ul>
+              <li class="fragment"> Write down your <span class="blue">value proposition</span>
+              <li class="fragment"> Build a <span class="green">roadmap</span> (Themes, Outcomes, Features)
+              <li class="fragment"> Include <span class="yellow">delighters</span>
+              <li class="fragment"> <span class="gold">Simplicity, Extensibility, Re-use</span>
+            </ul>
+          </div>
+        </section>
+
+        <section data-background="images/kiss.jpg">
+          <div class="see-through">
+            <h1>Stage 4 - Iterate on Features</h1>
+            <ul>
+              <li class="fragment"> <span class="blue">Iterate</span> on features
+              <li class="fragment"> <span class="green">Manage risk</span> through small batches, validated with customers
+              <li class="fragment"> Choose <span class="yellow">languages and tools</span> that fit the job
+              <li class="fragment"> <span class="gold">Ignore scale</span>
+              <li class="fragment"> When arguing about theory, re-focus on <span class="blue">execution</span>
+              <li class="fragment"> <span class="green">Demo</span> every week
+            </ul>
+          </div>
+        </section>
+
+        <section data-background="images/kiss.jpg">
+          <div class="see-through">
+            <h1>Stage 4 - Iterate on Features</h1>
+            <ul>
+              <li class="fragment"> Use <span class="blue">source control</span>
+              <li class="fragment"> Have a <span class="green">bug database</span>
+              <li class="fragment"> <span class="yellow">One workflow</span> for change
+              <li class="fragment"> <span class="gold">Four eyes</span>
+            </ul>
+          </div>
+        </section>
+
+        <section data-background="images/kiss.jpg">
+          <div class="see-through">
+            <h1>Stage 4 - Iterate on Features</h1>
+            <ul>
+              <li class="fragment"> <span class="blue">Continuous Integration</span>
+              <li class="fragment"> <span class="green">Continuous Delivery</span>
+              <li class="fragment"> <span class="yellow">One test</span> at a time (Unit, Integration, Functional, Smoke)
+              <li class="fragment"> Use <span class="gold">scalable systems design</span>
+            </ul>
+          </div>
+        </section>
+
+        <section data-background="images/kiss.jpg">
+          <div class="see-through">
+            <h1>Stage 4 - Operate</h1>
+            <ul>
+              <li class="fragment"> Focus on <span class="blue">availability</span>
+              <li class="fragment"> Collect <span class="green">metrics</span>
+              <li class="fragment"> Plan for <span class="yellow">capacity</span>
+              <li class="fragment"> <span class="gold">Alert</span> on what is actionable
+              <li class="fragment"> Run <span class="blue">incident response</span>
+              <li class="fragment"> Hold <span class="green">post mortems</span>
+            </ul>
+          </div>
+        </section>
+
+        <section data-background="images/kiss.jpg">
+          <div class="see-through">
+            <h1>Stage 5 - Deliver</h1>
+            <ul>
+              <li class="fragment"> <span class="yellow">Final demo</span>
+              <li class="fragment"> <span class="gold">Retrospective</span>
+            </ul>
+          </div>
+        </section>
+
+        <section data-background="images/devops-in-a-box.jpg">
+          <div class="see-through fragment">
+          <h1>Chef Style DevOps Kung Fu</h1>
+          <ul>
+              <li>On Github: <a href="http://github.com/chef/devops-kungfu">http://github.com/chef/devops-kungfu</a>
+              <li>Join by PR
+              <li>We work together to develop our principles, forms, and applications
+              <li>Start your own school by forking, removing the names, and changing the content
+            </ul>
+            <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
+          </div>
+        </section>
+
+        <section data-background="images/fly.jpg">
+          <div class="see-through fragment">
+            <h1>Find your own way</h1>
+            <ul>
+              <li> <span class="blue">DevOps is real</span>
+              <li> I know it by its <span class="green">universal principles</span>
+              <li> I practice it by its shared <span class="yellow">forms</span>
+              <li> I <span class="gold">apply</span> it to my daily work
+              <li> My practice is unique - and so is yours
+            </ul>
+          </div>
+        </section>
+
+      </div>
+
+    </div>
+
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.js"></script>
+
+    <script>
+
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        controls: false,
+        progress: true,
+        history: true,
+        center: true,
+        touch: true,
+        slideNumber: true,
+
+        transition: 'fade', // none/fade/slide/convex/concave/zoom
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+          { src: 'plugin/zoom-js/zoom.js', async: true },
+          { src: 'plugin/notes/notes.js', async: true }
+        ]
+      });
+
+    </script>
+
+  </body>
+</html>
