@@ -27,6 +27,7 @@ velocity organizations, born from the experiences of its practitioners.
 ## Practitioners of Chef Style DevOps
 
 * [Adam Jacob](http://chef.io)
+* [Paul Judt] (http://www.shopatron.com)
 
 ## License
 
