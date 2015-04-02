@@ -1,6 +1,6 @@
 # Chef Style DevOps Kung fu
 
-This repository defines Chef Style DevOps Kung fu.
+This repository defines Chef Style DevOps Kung fu. 
 
 It includes a presentation you can give, or ask people to watch, which explains
 what DevOps is, and defines a style of practice that comes from the lived
@@ -27,6 +27,7 @@ velocity organizations, born from the experiences of its practitioners.
 ## Practitioners of Chef Style DevOps
 
 * [Adam Jacob](http://chef.io)
+* [Shashi Shilarnav] (https://github.com/shashirsa)
 
 ## License
 
