@@ -6,7 +6,7 @@ It includes a presentation you can give, or ask people to watch, which explains
 what DevOps is, and defines a style of practice that comes from the lived
 experience of many DevOps professionals. It is a collaborative space, where all
 practitioners of the style can come together to create a reference for how to
-build up their own DevOps Kung fu, and teach others how to improve theres.
+build up their own DevOps Kung fu, and teach others how to improve theirs.
 
 You should start by watching the presentation, then come back here. If you agree
 with the fundamental principles, wish to pratice our forms, and apply the style
