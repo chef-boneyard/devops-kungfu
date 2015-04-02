@@ -30,6 +30,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Chris Nandor](http://pudge.net/)
 * Kenneth L McDowell II
 * [Mark Lüntzel] (https://github.com/luntzel)
+* [Patrick O'Connor](http://github.com/dontrebootme)
 
 ## License
 
