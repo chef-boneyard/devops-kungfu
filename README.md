@@ -29,6 +29,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Adam Jacob](http://chef.io)
 * [Chris Nandor](http://pudge.net/)
 * Kenneth L McDowell II
+* [Mark Lüntzel] (https://github.com/luntzel)
 
 ## License
 
