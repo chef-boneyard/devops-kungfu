@@ -46,6 +46,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Andy Claiborne](http://github.com/veloandy)
 * [Joshua Timberman](https://github.com/jtimberman)
 * [Scott Macfarlane](https://github.com/smacfarlane)
+* [Luke Bradbury] (https://github.com/hanskreuger)
 
 ## License
 
