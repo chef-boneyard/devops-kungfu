@@ -49,6 +49,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Luke Bradbury] (https://github.com/hanskreuger)
 * [Samuel Cassiba](http://github.com/scassiba)
 * [Robb Kidd](http://github.com/robbkidd)
+* [Thom May](https://github.com/thommay)
 
 ## License
 
