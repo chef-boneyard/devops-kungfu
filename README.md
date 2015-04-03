@@ -51,6 +51,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Robb Kidd](http://github.com/robbkidd)
 * [Thom May](https://github.com/thommay)
 * [Matt Ray](http://github.com/mattray)
+* [Julian Dunn](http://github.com/juliandunn)
 
 ## License
 
