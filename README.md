@@ -43,6 +43,7 @@ velocity organizations, born from the experiences of its practitioners.
 * Robert Wolff
 * [Gregory Ruiz-Ade](https://github.com/gkra)
 * [Phil Dibowitz](http://github.com/jaymzh)
+* [Andy Claiborne](http://github.com/veloandy)
 
 ## License
 
