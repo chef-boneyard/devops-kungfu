@@ -32,6 +32,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Mark Lüntzel] (https://github.com/luntzel)
 * [Patrick O'Connor](http://github.com/dontrebootme)
 * [Vandad Chaharlengi](https://github.com/vandadck)
+* [Shashi Shilarnav] (https://github.com/shashirsa)
 
 ## License
 
