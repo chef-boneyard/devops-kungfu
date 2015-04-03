@@ -31,6 +31,19 @@ velocity organizations, born from the experiences of its practitioners.
 * Kenneth L McDowell II
 * [Mark Lüntzel] (https://github.com/luntzel)
 * [Patrick O'Connor](http://github.com/dontrebootme)
+* [Vandad Chaharlengi](https://github.com/vandadck)
+* [Shashi Shilarnav] (https://github.com/shashirsa)
+* [Micah Coletti](http://ancestry.com)
+* [Ian Atkin](https://versal.com)
+* [Ian Henry](http://geekblood.com)
+* [Paul Judt] (http://www.shopatron.com)
+* [Tony Flint](http://nefario.us)
+* [Shaun Keenan](http://skeenan.net)
+* [Marcin Sawicki](https://github.com/odcinek)
+* Robert Wolff
+* [Gregory Ruiz-Ade](https://github.com/gkra)
+* [Phil Dibowitz](http://github.com/jaymzh)
+* [Andy Claiborne](http://github.com/veloandy)
 * [Joshua Timberman](https://github.com/jtimberman)
 
 ## License
