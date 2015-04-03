@@ -41,6 +41,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Shaun Keenan](http://skeenan.net)
 * [Marcin Sawicki](https://github.com/odcinek)
 * Robert Wolff
+* [Gregory Ruiz-Ade](https://github.com/gkra)
 
 ## License
 
