@@ -39,6 +39,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Paul Judt] (http://www.shopatron.com)
 * [Tony Flint](http://nefario.us)
 * [Shaun Keenan](http://skeenan.net)
+* [Marcin Sawicki](https://github.com/odcinek)
 
 ## License
 
