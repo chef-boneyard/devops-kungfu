@@ -40,6 +40,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Tony Flint](http://nefario.us)
 * [Shaun Keenan](http://skeenan.net)
 * [Marcin Sawicki](https://github.com/odcinek)
+* Robert Wolff
 
 ## License
 
