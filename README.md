@@ -9,7 +9,7 @@ practitioners of the style can come together to create a reference for how to
 build up their own DevOps Kung fu, and teach others how to improve theirs.
 
 You should start by watching the presentation, then come back here. If you agree
-with the fundamental principles, wish to pratice our forms, and apply the style
+with the fundamental principles, wish to practice our forms, and apply the style
 to your professional life, you can join our school by sending a pull request to
 this README file, and adding your name to the list of practitioners.
 
