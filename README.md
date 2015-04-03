@@ -38,7 +38,7 @@ velocity organizations, born from the experiences of its practitioners.
 
 ## Based on reveal.js
 
-Based on [http://lab.hakim.se/reveal-js](reveal.js).
+Based on [reveal.js](http://lab.hakim.se/reveal-js).
 
 Reveal.js is MIT licensed
 
