@@ -37,6 +37,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Ian Atkin](https://versal.com)
 * [Ian Henry](http://geekblood.com)
 * [Paul Judt] (http://www.shopatron.com)
+* [Tony Flint](http://nefario.us)
 
 ## License
 
