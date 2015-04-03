@@ -52,6 +52,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Thom May](https://github.com/thommay)
 * [Matt Ray](http://github.com/mattray)
 * [James Johnson](http://github.com/jcejohnson)
+* [Nathen Harvey](http://github.com/nathenharvey)
 
 ## License
 
