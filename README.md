@@ -34,6 +34,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Vandad Chaharlengi](https://github.com/vandadck)
 * [Shashi Shilarnav] (https://github.com/shashirsa)
 * [Micah Coletti](http://ancestry.com)
+* [Ian Atkin](https://versal.com)
 
 ## License
 
