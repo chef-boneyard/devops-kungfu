@@ -31,6 +31,7 @@ velocity organizations, born from the experiences of its practitioners.
 * Kenneth L McDowell II
 * [Mark Lüntzel] (https://github.com/luntzel)
 * [Patrick O'Connor](http://github.com/dontrebootme)
+* [Andy Claiborne](http://github.com/veloandy)
 
 ## License
 
