@@ -55,6 +55,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Nathen Harvey](http://github.com/nathenharvey)
 * [Jason Schadel](http://github.com/wyrdvans)
 * [Jessica DeVita](http://github.com/ubergeekgirl)
+* [Paul Dunnavant](http://github.com/pdunnavant)
 
 ## License
 
