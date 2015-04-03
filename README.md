@@ -48,6 +48,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Scott Macfarlane](https://github.com/smacfarlane)
 * [Luke Bradbury] (https://github.com/hanskreuger)
 * [Samuel Cassiba](http://github.com/scassiba)
+* [Matt Ray](http://github.com/mattray)
 
 ## License
 
