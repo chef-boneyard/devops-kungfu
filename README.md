@@ -33,6 +33,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Patrick O'Connor](http://github.com/dontrebootme)
 * [Vandad Chaharlengi](https://github.com/vandadck)
 * [Shashi Shilarnav] (https://github.com/shashirsa)
+* [Micah Coletti](http://ancestry.com)
 
 ## License
 
