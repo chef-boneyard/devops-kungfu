@@ -50,6 +50,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Samuel Cassiba](http://github.com/scassiba)
 * [Robb Kidd](http://github.com/robbkidd)
 * [Thom May](https://github.com/thommay)
+* [Matt Ray](http://github.com/mattray)
 
 ## License
 
