@@ -66,6 +66,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Justin Arbuckle](http://github.com/dromologue)
 * [Jeff Hackert](https://github.com/jchackert)
 * [John Martin](http://github.com/tekbuddha)
+* [Alex Manly](http://github.com/alexmanly)
 
 
 ## License
