@@ -67,6 +67,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Jeff Hackert](https://github.com/jchackert)
 * [John Martin](http://github.com/tekbuddha)
 * [Alex Manly](http://github.com/alexmanly)
+* [Kim Halavakoski](http://github.com/khalavak)
 
 
 ## License
