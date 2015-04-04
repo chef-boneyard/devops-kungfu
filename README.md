@@ -58,6 +58,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Terry J Fundak](http://github.com/tjsoftworks)
 * [Erik Rogneby](http://github.com/err0)
 * [Bryce Lynn](http://github.com/bignastybryce)
+* [Todd Michael Bushnell](http://github.com/toddmichael)
 
 ## License
 
