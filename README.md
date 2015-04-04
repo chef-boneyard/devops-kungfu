@@ -71,6 +71,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Justin Schuhmann](https://github.com/EasyAsABC123)
 * [Nathan Cerny](https://github.com/ncerny/)
 * [Pawel Bartusch](http://twitter.com/pbartusch)
+* [Steve Clark](http://github.com/sclark007)
 
 
 ## License
