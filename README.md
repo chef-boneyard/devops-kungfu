@@ -57,6 +57,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Jessica DeVita](http://github.com/ubergeekgirl)
 * [Terry J Fundak](http://github.com/tjsoftworks)
 * [Erik Rogneby](http://github.com/err0)
+* [Bryce Lynn](http://github.com/bignastybryce)
 
 ## License
 
