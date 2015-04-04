@@ -64,7 +64,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Jim Constantine](http://github.com/jaconstantine)
 * [Julian Dunn](http://github.com/juliandunn)
 * [Justin Arbuckle](http://github.com/dromologue)
-
+* [Jeff Hackert](https://github.com/jchackert)
 
 ## License
 
