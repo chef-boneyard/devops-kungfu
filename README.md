@@ -29,14 +29,14 @@ velocity organizations, born from the experiences of its practitioners.
 * [Adam Jacob](http://chef.io)
 * [Chris Nandor](http://pudge.net/)
 * Kenneth L McDowell II
-* [Mark Lüntzel] (https://github.com/luntzel)
+* [Mark Lüntzel](https://github.com/luntzel)
 * [Patrick O'Connor](http://github.com/dontrebootme)
 * [Vandad Chaharlengi](https://github.com/vandadck)
-* [Shashi Shilarnav] (https://github.com/shashirsa)
+* [Shashi Shilarnav](https://github.com/shashirsa)
 * [Micah Coletti](http://ancestry.com)
 * [Ian Atkin](https://versal.com)
 * [Ian Henry](http://geekblood.com)
-* [Paul Judt] (http://www.shopatron.com)
+* [Paul Judt](http://www.shopatron.com)
 * [Tony Flint](http://nefario.us)
 * [Shaun Keenan](http://skeenan.net)
 * [Marcin Sawicki](https://github.com/odcinek)
@@ -46,7 +46,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Andy Claiborne](http://github.com/veloandy)
 * [Joshua Timberman](https://github.com/jtimberman)
 * [Scott Macfarlane](https://github.com/smacfarlane)
-* [Luke Bradbury] (https://github.com/hanskreuger)
+* [Luke Bradbury](https://github.com/hanskreuger)
 * [Samuel Cassiba](http://github.com/scassiba)
 * [Robb Kidd](http://github.com/robbkidd)
 * [Thom May](https://github.com/thommay)
@@ -55,6 +55,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Nathen Harvey](http://github.com/nathenharvey)
 * [Jason Schadel](http://github.com/wyrdvans)
 * [Jessica DeVita](http://github.com/ubergeekgirl)
+* [Terry J Fundak](http://github.com/tjsoftworks)
 
 ## License
 
