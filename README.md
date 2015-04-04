@@ -59,6 +59,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Erik Rogneby](http://github.com/err0)
 * [Bryce Lynn](http://github.com/bignastybryce)
 * [Todd Michael Bushnell](http://github.com/toddmichael)
+* [Jeff LaPlante](http://github.com/jefflaplante)
 
 ## License
 
