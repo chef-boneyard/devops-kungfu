@@ -68,7 +68,9 @@ velocity organizations, born from the experiences of its practitioners.
 * [John Martin](http://github.com/tekbuddha)
 * [Alex Manly](http://github.com/alexmanly)
 * [Kim Halavakoski](http://github.com/khalavak)
+* [Justin Schuhmann](https://github.com/EasyAsABC123)
 * [Nathan Cerny](https://github.com/ncerny/)
+* [Pawel Bartusch](http://twitter.com/pbartusch)
 
 
 ## License
