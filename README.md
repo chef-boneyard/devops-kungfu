@@ -62,6 +62,8 @@ velocity organizations, born from the experiences of its practitioners.
 * [Jeff LaPlante](http://github.com/jefflaplante)
 * [Paul Dunnavant](http://github.com/pdunnavant)
 * [Jim Constantine](http://github.com/jaconstantine)
+* [Justin Arbuckle](http://github.com/dromologue)
+
 
 ## License
 
