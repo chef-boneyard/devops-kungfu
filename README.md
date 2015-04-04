@@ -61,6 +61,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Todd Michael Bushnell](http://github.com/toddmichael)
 * [Jeff LaPlante](http://github.com/jefflaplante)
 * [Paul Dunnavant](http://github.com/pdunnavant)
+* [Jim Constantine](http://github.com/jaconstantine)
 
 ## License
 
