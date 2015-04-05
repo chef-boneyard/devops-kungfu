@@ -76,6 +76,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Christopher Webber](https://github.com/cwebberOps)
 * [Mark Bainter](http://github.com/mbainter)
 * [Mike Thibodeau](http://github.com/MikeTLive)
+* [David Echols](http://github.com/echohack)
 
 
 
