@@ -74,6 +74,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Steve Clark](http://github.com/sclark007)
 * [Christopher Webber](https://github.com/cwebberOps)
 * [Mark Bainter](http://github.com/mbainter)
+* [Mike Thibodeau](http://github.com/MikeTLive)
 
 
 
