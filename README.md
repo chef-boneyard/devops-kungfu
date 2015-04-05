@@ -72,6 +72,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Nathan Cerny](https://github.com/ncerny/)
 * [Pawel Bartusch](http://twitter.com/pbartusch)
 * [Steve Clark](http://github.com/sclark007)
+* [Christopher Webber](https://github.com/cwebberOps)
 * [Mark Bainter](http://github.com/mbainter)
 
 
