@@ -78,6 +78,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Mike Thibodeau](http://github.com/MikeTLive)
 * [David Chou](https://twitter.com/iamdavidschou)
 * [David Echols](http://github.com/echohack)
+* [Salim Afiune](http://github.com/afiune)
 
 ## License
 
