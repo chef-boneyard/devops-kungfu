@@ -81,6 +81,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Salim Afiune](http://github.com/afiune)
 * [Michael Ducy](https://twitter.com/mfdii)
 * [Tyler Fitch](https://github.com/tfitch)
+* [Sander van Zoest](https://github.com/svanzoest)
 
 ## License
 
