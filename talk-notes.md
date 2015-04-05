@@ -562,7 +562,7 @@
 <slide>
 <h1>Focus on Availability</h1>
 <ul>
-  <li> Availability = uptime/uptime+downtime
+  <li> Availability = uptime/(uptime+downtime)
   <li> Focus your efforts on reducing mean time to diagnose and mean time to repair
   <li> Failure is inevitable, its how you detect and react that matter most
 </ul>
