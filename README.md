@@ -79,6 +79,9 @@ velocity organizations, born from the experiences of its practitioners.
 * [David Chou](https://twitter.com/iamdavidschou)
 * [David Echols](http://github.com/echohack)
 * [Salim Afiune](http://github.com/afiune)
+* [Michael Ducy](https://twitter.com/mfdii)
+
+>>>>>>> 0b2c271250c12f476931a62573ddc1c296909257
 
 ## License
 
