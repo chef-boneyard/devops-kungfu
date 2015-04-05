@@ -29,6 +29,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Adam Jacob](http://chef.io)
 * [Chris Nandor](http://pudge.net/)
 * Kenneth L McDowell II
+* [Parth Monga](https://github.com/Parthmonga)
 * [Mark Lüntzel](https://github.com/luntzel)
 * [Patrick O'Connor](http://github.com/dontrebootme)
 * [Vandad Chaharlengi](https://github.com/vandadck)
