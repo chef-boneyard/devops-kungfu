@@ -86,6 +86,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Seth Falcon](https://github.com/seth)
 * [JJ Asghar](https://github.com/jjasghar)
 * [Will Fisher](https://github.com/teknofire)
+* [Joshua Miller](https://github.com/jassinpain)
 
 ## License
 
