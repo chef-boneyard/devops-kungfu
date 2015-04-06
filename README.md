@@ -88,6 +88,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Will Fisher](https://github.com/teknofire)
 * [Jason McDonald](https://github.com/hamburglar)
 * [Joe Nuspl](http://github.com/nvwls)
+* [Nick Rycar](https://github.com/ChefRycar)
 
 ## License
 
