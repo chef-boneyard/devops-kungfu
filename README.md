@@ -82,6 +82,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Michael Ducy](https://twitter.com/mfdii)
 * [Tyler Fitch](https://github.com/tfitch)
 * [Sander van Zoest](https://github.com/svanzoest)
+* [Soo Choi](https://github.com/soosiechoi)
 
 ## License
 
