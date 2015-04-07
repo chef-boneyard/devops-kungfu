@@ -101,6 +101,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [George Miranda](https://github.com/gmiranda23)
 * [Sean OMeara](https://github.com/someara)
 * [Torben Knerr](https://github.com/tknerr)
+* [Jake Fagan](https://github.com/jakef)
 
 ## License
 
