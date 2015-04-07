@@ -89,6 +89,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Jason McDonald](https://github.com/hamburglar)
 * [Joe Nuspl](http://github.com/nvwls)
 * [Ryan Cragun](https://github.com/ryancragun)
+* [Nick Rycar](https://github.com/ChefRycar)
 
 ## License
 
