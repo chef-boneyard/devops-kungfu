@@ -96,6 +96,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Lukasz Jagiello](https://github.com/ljagiello)
 * [Kai Forsthövel](https://github.com/kforsthoevel)
 * [Adam Leff](https://github.com/adamleff)
+* [Steven Murawski](https://github.com/smurawski)
 
 ## License
 
