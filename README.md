@@ -83,6 +83,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Tyler Fitch](https://github.com/tfitch)
 * [Sander van Zoest](https://github.com/svanzoest)
 * [Soo Choi](https://github.com/soosiechoi)
+* [Kevin J. Dickerson](http://github.com/kevindickerson)
 * [Seth Falcon](https://github.com/seth)
 * [JJ Asghar](https://github.com/jjasghar)
 * [Will Fisher](https://github.com/teknofire)
