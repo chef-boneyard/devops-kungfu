@@ -95,6 +95,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Rex Cerbas](https://github.com/rx007)
 * [Lukasz Jagiello](https://github.com/ljagiello)
 * [Kai Forsthövel](https://github.com/kforsthoevel)
+* [Adam Leff](https://github.com/adamleff)
 
 ## License
 
