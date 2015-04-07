@@ -91,6 +91,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Ryan Cragun](https://github.com/ryancragun)
 * [Nick Rycar](https://github.com/ChefRycar)
 * [Justin Redd](https://twitter.com/justinredd)
+* [Joshua Miller](https://github.com/jassinpain)
 
 ## License
 
