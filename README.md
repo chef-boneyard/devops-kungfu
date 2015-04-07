@@ -100,6 +100,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Steven Murawski](https://github.com/smurawski)
 * [George Miranda](https://github.com/gmiranda23)
 * [Sean OMeara](https://github.com/someara)
+* [Torben Knerr](https://github.com/tknerr)
 
 ## License
 
