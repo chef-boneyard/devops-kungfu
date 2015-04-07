@@ -94,6 +94,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Joshua Miller](https://github.com/jassinpain)
 * [Rex Cerbas](https://github.com/rx007)
 * [Lukasz Jagiello](https://github.com/ljagiello)
+* [Kai Forsthövel](https://github.com/kforsthoevel)
 
 ## License
 
