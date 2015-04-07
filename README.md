@@ -98,6 +98,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Kai Forsthövel](https://github.com/kforsthoevel)
 * [Adam Leff](https://github.com/adamleff)
 * [Steven Murawski](https://github.com/smurawski)
+* [George Miranda](https://github.com/gmiranda23)
 
 ## License
 
