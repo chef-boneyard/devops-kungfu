@@ -90,6 +90,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Joe Nuspl](http://github.com/nvwls)
 * [Ryan Cragun](https://github.com/ryancragun)
 * [Nick Rycar](https://github.com/ChefRycar)
+* [Justin Redd](https://twitter.com/justinredd)
 
 ## License
 
