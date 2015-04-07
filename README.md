@@ -92,6 +92,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Nick Rycar](https://github.com/ChefRycar)
 * [Justin Redd](https://twitter.com/justinredd)
 * [Joshua Miller](https://github.com/jassinpain)
+* [Kai Forsthövel](https://github.com/kforsthoevel)
 
 ## License
 
