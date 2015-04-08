@@ -68,6 +68,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Jeff Hackert](https://github.com/jchackert)
 * [John Martin](http://github.com/tekbuddha)
 * [Alex Manly](http://github.com/alexmanly)
+* [Alex Vinyar](http://github.com/vinyar)
 * [Kim Halavakoski](http://github.com/khalavak)
 * [Justin Schuhmann](https://github.com/EasyAsABC123)
 * [Nathan Cerny](https://github.com/ncerny/)
