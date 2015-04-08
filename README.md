@@ -8,12 +8,12 @@ experience of many DevOps professionals. It is a collaborative space, where all
 practitioners of the style can come together to create a reference for how to
 build up their own DevOps Kung fu, and teach others how to improve theirs.
 
-You should start by watching the presentation, then come back here. If you agree
+You should start by [watching the presentation](https://www.youtube.com/watch?v=_DEToXsgrPc), then come back here. If you agree
 with the fundamental principles, wish to practice our forms, and apply the style
 to your professional life, you can join our school by sending a pull request to
 this README file, and adding your name to the list of practitioners.
 
-If you like most of what you see, but not all, or wish to emphasise different
+If you like most of what you see, but not all, or wish to emphasize different
 things about your style - but you agree on the same fundamental principles - you
 should fork this repository, remove the names of practitioners from this file,
 and found your own school of DevOps Kung fu. All we ask is that you please give
@@ -28,7 +28,8 @@ velocity organizations, born from the experiences of its practitioners.
 
 * [Adam Jacob](http://chef.io)
 * [Chris Nandor](http://pudge.net/)
-* Kenneth L McDowell II
+* [Kenneth L McDowell II](https://github.com/kmcdowell85)
+* [Parth Monga](https://github.com/Parthmonga)
 * [Mark Lüntzel](https://github.com/luntzel)
 * [Patrick O'Connor](http://github.com/dontrebootme)
 * [Vandad Chaharlengi](https://github.com/vandadck)
@@ -75,8 +76,33 @@ velocity organizations, born from the experiences of its practitioners.
 * [Christopher Webber](https://github.com/cwebberOps)
 * [Mark Bainter](http://github.com/mbainter)
 * [Mike Thibodeau](http://github.com/MikeTLive)
-
-
+* [David Chou](https://twitter.com/iamdavidschou)
+* [David Echols](http://github.com/echohack)
+* [Salim Afiune](http://github.com/afiune)
+* [Michael Ducy](https://twitter.com/mfdii)
+* [Tyler Fitch](https://github.com/tfitch)
+* [Sander van Zoest](https://github.com/svanzoest)
+* [Soo Choi](https://github.com/soosiechoi)
+* [Kevin J. Dickerson](http://github.com/kevindickerson)
+* [Seth Falcon](https://github.com/seth)
+* [JJ Asghar](https://github.com/jjasghar)
+* [Will Fisher](https://github.com/teknofire)
+* [Jason McDonald](https://github.com/hamburglar)
+* [Joe Nuspl](http://github.com/nvwls)
+* [Ryan Cragun](https://github.com/ryancragun)
+* [Nick Rycar](https://github.com/ChefRycar)
+* [Justin Redd](https://twitter.com/justinredd)
+* [Joshua Miller](https://github.com/jassinpain)
+* [Rex Cerbas](https://github.com/rx007)
+* [Lukasz Jagiello](https://github.com/ljagiello)
+* [Kai Forsthövel](https://github.com/kforsthoevel)
+* [Adam Leff](https://github.com/adamleff)
+* [Steven Murawski](https://github.com/smurawski)
+* [George Miranda](https://github.com/gmiranda23)
+* [Sean OMeara](https://github.com/someara)
+* [Torben Knerr](https://github.com/tknerr)
+* [Franklin Webber](https://github.com/burtlo)
+* [Jake Fagan](https://github.com/jakef)
 
 ## License
 
