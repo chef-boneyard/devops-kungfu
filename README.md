@@ -106,6 +106,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Chris Sanders](https://github.com/chris-sanders-dot-org)
 * [Lane McLaughlin](https://github.com/spacattac)
 * [Jim Grill](https://github.com/jgrill)
+* [Karolin Beck](https://github.com/karobeck)
 
 ## License
 
