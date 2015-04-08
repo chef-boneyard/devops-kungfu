@@ -103,6 +103,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Torben Knerr](https://github.com/tknerr)
 * [Franklin Webber](https://github.com/burtlo)
 * [Jake Fagan](https://github.com/jakef)
+* [Chris Sanders](https://github.com/chris-sanders-dot-org)
 
 ## License
 
