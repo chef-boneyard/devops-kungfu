@@ -104,6 +104,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Franklin Webber](https://github.com/burtlo)
 * [Jake Fagan](https://github.com/jakef)
 * [Chris Sanders](https://github.com/chris-sanders-dot-org)
+* [Lane McLaughlin](https://github.com/spacattac)
 
 ## License
 
