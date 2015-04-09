@@ -113,6 +113,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Manuel Henke](https://github.com/ducke)
 * [Kristian Vlaardingerbroek](https://github.com/rarenerd)
 * [Andy Fleener](https://github.com/anfleene)
+* [Mickie Smith](https://github.com/pagnmickie)
 
 ## License
 
