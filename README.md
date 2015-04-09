@@ -109,6 +109,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Jim Grill](https://github.com/jgrill)
 * [Karolin Beck](https://github.com/karobeck)
 * [Tony Notto](https://github.com/tonynotto)
+* [Jeffery Padgett](https://github.com/jbpadgett)
 
 ## License
 
