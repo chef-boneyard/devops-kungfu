@@ -242,7 +242,7 @@
 <slide>
 <h1>Ubiquitous Workflow Automation that makes the easy path flow with our principles</h1>
 <ul>
-  <li> COnway's law
+  <li> Conway's law
 </ul>
 </slide>
 
@@ -498,7 +498,7 @@
 </slide>
 
 <slide>
-<h1>Four-eyes minmum</h1>
+<h1>Four-eyes minimum</h1>
 <ul>
   <li> No changes happen to the system with a single pair of eyes
   <li> Code review
@@ -639,7 +639,7 @@
 </slide>
 
 <slide>
-<h1>THe sense of humility</h1>
+<h1>The sense of humility</h1>
 <ul>
   <li> The sense of code ownership across the product
   <li> Break down the one person silo
@@ -702,7 +702,7 @@
 </slide>
 
 <slide>
-<h1>Where do you start</h1>
+<h1>Where do you start?</h1>
 <ul>
   <li> While we can't - and wouldn't presume - to tell you how to do it forever
   <li> We can tell you how to start tying all these things together, and gain your first experiences with what it feels like
@@ -745,4 +745,4 @@
   <li> That's what the real active action is
   <li> 
 
-  you talk about moving risk and complexity to the left and that is where it is in the kata (or tai chi form) as well. The most frequently needed/used moves are at the front, the ornate or specialized moves at the end or on the right
+  You talk about moving risk and complexity to the left and that is where it is in the kata (or tai chi form) as well. The most frequently needed/used moves are at the front, the ornate or specialized moves at the end or on the right.
