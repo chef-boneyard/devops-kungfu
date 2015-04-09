@@ -112,6 +112,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Jeffery Padgett](https://github.com/jbpadgett)
 * [Manuel Henke](https://github.com/ducke)
 * [Kristian Vlaardingerbroek](https://github.com/rarenerd)
+* [Andy Fleener](https://github.com/anfleene)
 
 ## License
 
