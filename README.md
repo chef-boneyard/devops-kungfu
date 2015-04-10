@@ -115,6 +115,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Andy Fleener](https://github.com/anfleene)
 * [Jeffrey Einhorn](https://twitter.com/JeffEinhorn) 
 * [Mickie Smith](https://twitter.com/pagnmickie)
+* [Kevin Duane](https://twitter.com/crackmac)
 
 ## License
 
