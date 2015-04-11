@@ -117,6 +117,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Mickie Smith](https://twitter.com/pagnmickie)
 * [Kevin Duane](https://twitter.com/crackmac)
 * [Will Moore](https://twitter.com/willmoore)
+* [Michael Goetz](https://github.com/micgo)
 
 ## License
 
