@@ -116,6 +116,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Jeffrey Einhorn](https://twitter.com/JeffEinhorn) 
 * [Mickie Smith](https://twitter.com/pagnmickie)
 * [Kevin Duane](https://twitter.com/crackmac)
+* [Will Moore](https://twitter.com/willmoore)
 
 ## License
 
