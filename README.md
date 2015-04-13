@@ -120,6 +120,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Michael Goetz](https://github.com/micgo)
 * [Nick Thompson](https://github.com/wnthompson78)
 * [Yvo van Doorn](https://twitter.com/yvov)
+* [Jay Kline](https://github.com/slushpupie)
 
 ## License
 
