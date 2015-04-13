@@ -121,6 +121,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Nick Thompson](https://github.com/wnthompson78)
 * [Yvo van Doorn](https://twitter.com/yvov)
 * [Jay Kline](https://github.com/slushpupie)
+* [Matt Stratton](https://twitter.com/mattstratton)
 
 ## License
 
