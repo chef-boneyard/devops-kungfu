@@ -119,6 +119,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Will Moore](https://twitter.com/willmoore)
 * [Michael Goetz](https://github.com/micgo)
 * [Nick Thompson](https://github.com/wnthompson78)
+* [Jay Kline](https://github.com/slushpupie)
 
 ## License
 
