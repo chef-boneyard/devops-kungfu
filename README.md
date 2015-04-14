@@ -127,6 +127,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Medya Gh](https://github.com/medyagh)
 * [Richard Nixon](https://github.com/trickyearlobe)
 * [Chris Patti](http://www.feoh.org)
+* [Amitraj Budhu] (https://github.com/abudhu)
 
 ## License
 
