@@ -125,6 +125,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Dan Webb](https://github.com/damacus)
 * [Jonathan Poole](https://github.com/digitaljedi2)
 * [Medya Gh](https://github.com/medyagh)
+* [Richard Nixon](https://github.com/trickyearlobe)
 
 ## License
 
