@@ -129,6 +129,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Chris Patti](http://www.feoh.org)
 * [Amitraj Budhu] (https://github.com/abudhu)
 * [Reuben Dunn] (https://github.com/DefSol)
+* [Merritt Krakowitzer] (https://github.com/mkrakowitzer)
 
 ## License
 
