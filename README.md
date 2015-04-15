@@ -132,6 +132,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Merritt Krakowitzer] (https://github.com/mkrakowitzer)
 * [David Aronsohn] (https://github.com/tbunnyman)
 * [Oleg Sumarokov] (http://thgsn.org)
+* [Fahd Sultan] (https://github.com/fsultan)
 
 ## License
 
