@@ -134,6 +134,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Oleg Sumarokov] (http://thgsn.org)
 * [Fahd Sultan] (https://github.com/fsultan)
 * [Jesse R. Adams] (https://github.com/jesseadams)
+* [Rudger Gravestein] (https://github.com/Rud5G)
 
 ## License
 
