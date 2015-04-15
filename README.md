@@ -130,6 +130,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Amitraj Budhu] (https://github.com/abudhu)
 * [Reuben Dunn] (https://github.com/DefSol)
 * [Merritt Krakowitzer] (https://github.com/mkrakowitzer)
+* [Oleg Sumarokov] (http://thgsn.org)
 
 ## License
 
