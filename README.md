@@ -113,7 +113,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Manuel Henke](https://github.com/ducke)
 * [Kristian Vlaardingerbroek](https://github.com/rarenerd)
 * [Andy Fleener](https://github.com/anfleene)
-* [Jeffrey Einhorn](https://twitter.com/JeffEinhorn) 
+* [Jeffrey Einhorn](https://twitter.com/JeffEinhorn)
 * [Mickie Smith](https://twitter.com/pagnmickie)
 * [Kevin Duane](https://twitter.com/crackmac)
 * [Will Moore](https://twitter.com/willmoore)
@@ -130,6 +130,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Amitraj Budhu] (https://github.com/abudhu)
 * [Reuben Dunn] (https://github.com/DefSol)
 * [Merritt Krakowitzer] (https://github.com/mkrakowitzer)
+* [Jesse R. Adams] (https://github.com/jesseadams)
 
 ## License
 
