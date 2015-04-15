@@ -128,6 +128,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Richard Nixon](https://github.com/trickyearlobe)
 * [Chris Patti](http://www.feoh.org)
 * [Amitraj Budhu] (https://github.com/abudhu)
+* [Reuben Dunn] (https://github.com/DefSol)
 
 ## License
 
