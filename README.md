@@ -131,6 +131,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Reuben Dunn] (https://github.com/DefSol)
 * [Merritt Krakowitzer] (https://github.com/mkrakowitzer)
 * [David Aronsohn] (https://github.com/tbunnyman)
+* [Oleg Sumarokov] (http://thgsn.org)
 
 ## License
 
