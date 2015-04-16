@@ -113,7 +113,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Manuel Henke](https://github.com/ducke)
 * [Kristian Vlaardingerbroek](https://github.com/rarenerd)
 * [Andy Fleener](https://github.com/anfleene)
-* [Jeffrey Einhorn](https://twitter.com/JeffEinhorn) 
+* [Jeffrey Einhorn](https://twitter.com/JeffEinhorn)
 * [Mickie Smith](https://twitter.com/pagnmickie)
 * [Kevin Duane](https://twitter.com/crackmac)
 * [Will Moore](https://twitter.com/willmoore)
@@ -123,6 +123,19 @@ velocity organizations, born from the experiences of its practitioners.
 * [Jay Kline](https://github.com/slushpupie)
 * [Matt Stratton](https://twitter.com/mattstratton)
 * [Trevor Alexander Powell](https://www.linkedin.com/in/trevorapowell)
+* [Dan Webb](https://github.com/damacus)
+* [Jonathan Poole](https://github.com/digitaljedi2)
+* [Medya Gh](https://github.com/medyagh)
+* [Richard Nixon](https://github.com/trickyearlobe)
+* [Chris Patti](http://www.feoh.org)
+* [Amitraj Budhu] (https://github.com/abudhu)
+* [Reuben Dunn] (https://github.com/DefSol)
+* [Merritt Krakowitzer] (https://github.com/mkrakowitzer)
+* [David Aronsohn] (https://github.com/tbunnyman)
+* [Oleg Sumarokov] (http://thgsn.org)
+* [Fahd Sultan] (https://github.com/fsultan)
+* [Jesse R. Adams] (https://github.com/jesseadams)
+* [Rudger Gravestein] (https://github.com/Rud5G)
 
 ## License
 
