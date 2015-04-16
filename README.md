@@ -122,6 +122,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Yvo van Doorn](https://twitter.com/yvov)
 * [Jay Kline](https://github.com/slushpupie)
 * [Matt Stratton](https://twitter.com/mattstratton)
+* [Trevor Alexander Powell](https://www.linkedin.com/in/trevorapowell)
 
 ## License
 
