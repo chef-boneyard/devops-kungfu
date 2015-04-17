@@ -137,6 +137,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Jesse R. Adams] (https://github.com/jesseadams)
 * [Rudger Gravestein] (https://github.com/Rud5G)
 * [Rakesh Patel] (https://github.com/rocpatel)
+* [Sean Carolan] (https://github.com/scarolan)
 
 ## License
 
