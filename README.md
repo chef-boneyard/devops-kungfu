@@ -8,12 +8,12 @@ experience of many DevOps professionals. It is a collaborative space, where all
 practitioners of the style can come together to create a reference for how to
 build up their own DevOps Kung fu, and teach others how to improve theirs.
 
-You should start by watching the presentation, then come back here. If you agree
-with the fundamental principles, wish to pratice our forms, and apply the style
+You should start by [watching the presentation](https://www.youtube.com/watch?v=_DEToXsgrPc), then come back here. If you agree
+with the fundamental principles, wish to practice our forms, and apply the style
 to your professional life, you can join our school by sending a pull request to
 this README file, and adding your name to the list of practitioners.
 
-If you like most of what you see, but not all, or wish to emphasise different
+If you like most of what you see, but not all, or wish to emphasize different
 things about your style - but you agree on the same fundamental principles - you
 should fork this repository, remove the names of practitioners from this file,
 and found your own school of DevOps Kung fu. All we ask is that you please give
@@ -27,6 +27,117 @@ velocity organizations, born from the experiences of its practitioners.
 ## Practitioners of Chef Style DevOps
 
 * [Adam Jacob](http://chef.io)
+* [Chris Nandor](http://pudge.net/)
+* [Kenneth L McDowell II](https://github.com/kmcdowell85)
+* [Parth Monga](https://github.com/Parthmonga)
+* [Mark Lüntzel](https://github.com/luntzel)
+* [Patrick O'Connor](http://github.com/dontrebootme)
+* [Vandad Chaharlengi](https://github.com/vandadck)
+* [Shashi Shilarnav](https://github.com/shashirsa)
+* [Micah Coletti](http://ancestry.com)
+* [Ian Atkin](https://versal.com)
+* [Ian Henry](http://geekblood.com)
+* [Paul Judt](http://www.shopatron.com)
+* [Tony Flint](http://nefario.us)
+* [Shaun Keenan](http://skeenan.net)
+* [Marcin Sawicki](https://github.com/odcinek)
+* Robert Wolff
+* [Gregory Ruiz-Ade](https://github.com/gkra)
+* [Phil Dibowitz](http://github.com/jaymzh)
+* [Andy Claiborne](http://github.com/veloandy)
+* [Joshua Timberman](https://github.com/jtimberman)
+* [Scott Macfarlane](https://github.com/smacfarlane)
+* [Luke Bradbury](https://github.com/hanskreuger)
+* [Samuel Cassiba](http://github.com/scassiba)
+* [Robb Kidd](http://github.com/robbkidd)
+* [Thom May](https://github.com/thommay)
+* [Matt Ray](http://github.com/mattray)
+* [James Johnson](http://github.com/jcejohnson)
+* [Nathen Harvey](http://github.com/nathenharvey)
+* [Jason Schadel](http://github.com/wyrdvans)
+* [Jessica DeVita](http://github.com/ubergeekgirl)
+* [Terry J Fundak](http://github.com/tjsoftworks)
+* [Erik Rogneby](http://github.com/err0)
+* [Bryce Lynn](http://github.com/bignastybryce)
+* [Todd Michael Bushnell](http://github.com/toddmichael)
+* [Jeff LaPlante](http://github.com/jefflaplante)
+* [Paul Dunnavant](http://github.com/pdunnavant)
+* [Jim Constantine](http://github.com/jaconstantine)
+* [Julian Dunn](http://github.com/juliandunn)
+* [Justin Arbuckle](http://github.com/dromologue)
+* [Jeff Hackert](https://github.com/jchackert)
+* [John Martin](http://github.com/tekbuddha)
+* [Alex Manly](http://github.com/alexmanly)
+* [Alex Vinyar](http://github.com/vinyar)
+* [Kim Halavakoski](http://github.com/khalavak)
+* [Justin Schuhmann](https://github.com/EasyAsABC123)
+* [Nathan Cerny](https://github.com/ncerny/)
+* [Pawel Bartusch](http://twitter.com/pbartusch)
+* [Steve Clark](http://github.com/sclark007)
+* [Christopher Webber](https://github.com/cwebberOps)
+* [Mark Bainter](http://github.com/mbainter)
+* [Mike Thibodeau](http://github.com/MikeTLive)
+* [David Chou](https://twitter.com/iamdavidschou)
+* [David Echols](http://github.com/echohack)
+* [Salim Afiune](http://github.com/afiune)
+* [Michael Ducy](https://twitter.com/mfdii)
+* [Tyler Fitch](https://github.com/tfitch)
+* [Sander van Zoest](https://github.com/svanzoest)
+* [Soo Choi](https://github.com/soosiechoi)
+* [Kevin J. Dickerson](http://github.com/kevindickerson)
+* [Seth Falcon](https://github.com/seth)
+* [JJ Asghar](https://github.com/jjasghar)
+* [Will Fisher](https://github.com/teknofire)
+* [Jason McDonald](https://github.com/hamburglar)
+* [Joe Nuspl](http://github.com/nvwls)
+* [Ryan Cragun](https://github.com/ryancragun)
+* [Nick Rycar](https://github.com/ChefRycar)
+* [Justin Redd](https://twitter.com/justinredd)
+* [Joshua Miller](https://github.com/jassinpain)
+* [Rex Cerbas](https://github.com/rx007)
+* [Lukasz Jagiello](https://github.com/ljagiello)
+* [Kai Forsthövel](https://github.com/kforsthoevel)
+* [Adam Leff](https://github.com/adamleff)
+* [Steven Murawski](https://github.com/smurawski)
+* [George Miranda](https://github.com/gmiranda23)
+* [Sean OMeara](https://github.com/someara)
+* [Torben Knerr](https://github.com/tknerr)
+* [Franklin Webber](https://github.com/burtlo)
+* [Jake Fagan](https://github.com/jakef)
+* [Chris Sanders](https://github.com/chris-sanders-dot-org)
+* [Lane McLaughlin](https://github.com/spacattac)
+* [Jim Grill](https://github.com/jgrill)
+* [Karolin Beck](https://github.com/karobeck)
+* [Tony Notto](https://github.com/tonynotto)
+* [Jeffery Padgett](https://github.com/jbpadgett)
+* [Manuel Henke](https://github.com/ducke)
+* [Kristian Vlaardingerbroek](https://github.com/rarenerd)
+* [Andy Fleener](https://github.com/anfleene)
+* [Jeffrey Einhorn](https://twitter.com/JeffEinhorn)
+* [Mickie Smith](https://twitter.com/pagnmickie)
+* [Kevin Duane](https://twitter.com/crackmac)
+* [Will Moore](https://twitter.com/willmoore)
+* [Michael Goetz](https://github.com/micgo)
+* [Nick Thompson](https://github.com/wnthompson78)
+* [Yvo van Doorn](https://twitter.com/yvov)
+* [Jay Kline](https://github.com/slushpupie)
+* [Matt Stratton](https://twitter.com/mattstratton)
+* [Trevor Alexander Powell](https://www.linkedin.com/in/trevorapowell)
+* [Dan Webb](https://github.com/damacus)
+* [Jonathan Poole](https://github.com/digitaljedi2)
+* [Medya Gh](https://github.com/medyagh)
+* [Richard Nixon](https://github.com/trickyearlobe)
+* [Chris Patti](http://www.feoh.org)
+* [Amitraj Budhu] (https://github.com/abudhu)
+* [Reuben Dunn] (https://github.com/DefSol)
+* [Merritt Krakowitzer] (https://github.com/mkrakowitzer)
+* [David Aronsohn] (https://github.com/tbunnyman)
+* [Oleg Sumarokov] (http://thgsn.org)
+* [Fahd Sultan] (https://github.com/fsultan)
+* [Jesse R. Adams] (https://github.com/jesseadams)
+* [Rudger Gravestein] (https://github.com/Rud5G)
+* [Rakesh Patel] (https://github.com/rocpatel)
+* [Sean Carolan] (https://github.com/scarolan)
 
 ## License
 
@@ -34,7 +145,7 @@ velocity organizations, born from the experiences of its practitioners.
 
 ## Based on reveal.js
 
-Based on [http://lab.hakim.se/reveal-js](reveal.js).
+Based on [reveal.js](http://lab.hakim.se/reveal-js).
 
 Reveal.js is MIT licensed
 
