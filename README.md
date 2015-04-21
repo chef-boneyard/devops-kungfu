@@ -139,6 +139,9 @@ velocity organizations, born from the experiences of its practitioners.
 * [Rakesh Patel] (https://github.com/rocpatel)
 * [Sean Carolan] (https://github.com/scarolan)
 * [Kevin Short] (https://github.com/kshortdyn)
+* [Venkat P](https://github.com/vbp11)
+
+>>>>>>> e47f5f64096c1d1e09a1c09d70bc9034f47d2eaa
 
 ## License
 
