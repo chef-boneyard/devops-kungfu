@@ -140,6 +140,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Sean Carolan] (https://github.com/scarolan)
 * [Kevin Short] (https://github.com/kshortdyn)
 * [Venkat P](https://github.com/vbp11)
+* [Bill Weiss](https://github.com/BillWeiss)
 
 ## License
 
