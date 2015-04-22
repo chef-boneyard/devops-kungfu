@@ -141,7 +141,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Kevin Short] (https://github.com/kshortdyn)
 * [Venkat P](https://github.com/vbp11)
 * [Bill Weiss](https://github.com/BillWeiss)
-* [Nicholas Ng] https://github.com/nicholasnggithub
+* [Nicholas Ng](https://github.com/nicholasnggithub)
 
 ## License
 
