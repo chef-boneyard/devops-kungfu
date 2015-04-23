@@ -142,6 +142,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Venkat P](https://github.com/vbp11)
 * [Bill Weiss](https://github.com/BillWeiss)
 * [Nicholas Ng](https://github.com/nicholasnggithub)
+* [Mahesh Varma](https://github.com/varmamahesh)
 
 ## License
 
