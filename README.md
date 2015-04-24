@@ -60,6 +60,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Erik Rogneby](http://github.com/err0)
 * [Bryce Lynn](http://github.com/bignastybryce)
 * [Todd Michael Bushnell](http://github.com/toddmichael)
+* [Brian Scott](http://github.com/bscott)
 * [Jeff LaPlante](http://github.com/jefflaplante)
 * [Paul Dunnavant](http://github.com/pdunnavant)
 * [Jim Constantine](http://github.com/jaconstantine)
