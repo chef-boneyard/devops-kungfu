@@ -146,6 +146,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Mahesh Varma](https://github.com/varmamahesh)
 * [Trevor Hess](https://github.com/trevorghess)
 * [Mark Jaffe](https://github.com/jaff)
+* [Ricardo Lupo](https://github.com/ricardolupo)
 
 ## License
 
