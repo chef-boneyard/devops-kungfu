@@ -148,6 +148,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Mark Jaffe](https://github.com/jaff)
 * [Ricardo Lupo](https://github.com/ricardolupo)
 * [Mark Lehmann](https://github.com/marklehmann26)
+* [Marcin Mazurek](https://twitter.com/mazuchna)
 
 ## License
 
