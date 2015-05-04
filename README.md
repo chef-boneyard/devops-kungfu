@@ -149,6 +149,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Ricardo Lupo](https://github.com/ricardolupo)
 * [Mark Lehmann](https://github.com/marklehmann26)
 * [Marcin Mazurek](https://twitter.com/mazuchna)
+* [Yigal Weinstein](http://8leggedunicorn.com)
 
 ## License
 
