@@ -150,6 +150,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Mark Lehmann](https://github.com/marklehmann26)
 * [Marcin Mazurek](https://twitter.com/mazuchna)
 * [Yigal Weinstein](http://8leggedunicorn.com)
+* [Mike Tavares](https://github.com/TavaTech)
 
 ## License
 
