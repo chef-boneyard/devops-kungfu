@@ -152,6 +152,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Yigal Weinstein](http://8leggedunicorn.com)
 * [Mike Tavares](https://github.com/TavaTech)
 * [Jason Reslock](https://github.com/jreslock)
+* [Justin Franks](https://github.com/justintfranks)
 
 ## License
 
