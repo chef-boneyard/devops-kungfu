@@ -155,6 +155,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Justin Franks](https://github.com/justintfranks)
 * [Travis Spaulding](https://github.com/tspaulding295)
 * [Federico Castagnini](https://github.com/facastagnini)
+* [Paul Everton](https://github.com/patternpaul)
 
 ## License
 
