@@ -157,6 +157,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Federico Castagnini](https://github.com/facastagnini)
 * [Paul Everton](https://github.com/patternpaul)
 * [Daniel Siefert](https://github.com/OfCourseITestedIt)
+* [Matt Trail](https://github.com/mwtrail)
 * 
 ## License
 
