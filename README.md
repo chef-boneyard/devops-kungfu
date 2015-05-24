@@ -159,6 +159,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Daniel Siefert](https://github.com/OfCourseITestedIt)
 * [Mike Tyler](https://github.com/mtyler)
 * [Matt Trail](https://github.com/mwtrail)
+* [Shaw Innes](http://shawinnes.com)
 
 ## License
 
