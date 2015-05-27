@@ -160,6 +160,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Mike Tyler](https://github.com/mtyler)
 * [Matt Trail](https://github.com/mwtrail)
 * [Shaw Innes](http://shawinnes.com)
+* [Pavlos Ratis](https://github.com/dastergon)
 
 ## License
 
