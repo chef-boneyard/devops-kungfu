@@ -161,6 +161,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Matt Trail](https://github.com/mwtrail)
 * [Shaw Innes](http://shawinnes.com)
 * [Pavlos Ratis](https://github.com/dastergon)
+* [Curtis Yanko](https://github.com/CMYanko)
 
 ## License
 
