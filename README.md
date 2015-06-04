@@ -162,6 +162,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Shaw Innes](http://shawinnes.com)
 * [Pavlos Ratis](https://github.com/dastergon)
 * [Curtis Yanko](https://github.com/CMYanko)
+* [Randall Morse](http://rmorse.com)
 
 ## License
 
