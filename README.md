@@ -164,6 +164,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Curtis Yanko](https://github.com/CMYanko)
 * [Sam Thwaites](http://thwaitesy.com)
 * [Jean Paul Mugizi] (https://github.com/mugizico)
+* [Randall Morse](http://rmorse.com)
 
 ## License
 
