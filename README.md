@@ -167,6 +167,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Randall Morse](http://rmorse.com)
 * [Petr Michalec](https://github.com/epcim)
 * [Carlos Camacho](https://github.com/carlosdcg)
+* [Joe Goggins](https://github.com/joegoggins)
 
 
 ## License
