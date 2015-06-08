@@ -166,6 +166,8 @@ velocity organizations, born from the experiences of its practitioners.
 * [Jean Paul Mugizi] (https://github.com/mugizico)
 * [Randall Morse](http://rmorse.com)
 * [Petr Michalec](https://github.com/epcim)
+* [Carlos Camacho](https://github.com/carlosdcg)
+
 
 ## License
 
