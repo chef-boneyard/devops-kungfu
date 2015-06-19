@@ -169,6 +169,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Carlos Camacho](https://github.com/carlosdcg)
 * [Joe Goggins](https://github.com/joegoggins)
 * [Emir Ozer](https://github.com/emirozer)
+* [Anshul Sharma](https://github.com/justanshulsharma)
 
 
 ## License
