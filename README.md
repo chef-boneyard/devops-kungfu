@@ -170,6 +170,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Joe Goggins](https://github.com/joegoggins)
 * [Emir Ozer](https://github.com/emirozer)
 * [Anshul Sharma](https://github.com/justanshulsharma)
+* [Jason Walker](https://github.com/desktophero)
 
 
 ## License
