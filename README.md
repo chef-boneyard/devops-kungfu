@@ -172,6 +172,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Anshul Sharma](https://github.com/justanshulsharma)
 * [Jason Walker](https://github.com/desktophero)
 * [Tony Witherspoon](https://github.com/twitherspoon)
+* [Martin Neiiendam](https://github.com/fracklen)
 
 
 ## License
