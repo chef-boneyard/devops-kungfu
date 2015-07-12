@@ -174,6 +174,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Tony Witherspoon](https://github.com/twitherspoon)
 * [Martin Neiiendam](https://github.com/fracklen)
 * [Rory Bramwell](https://github.com/rbramwell)
+* [Jose Ventura](https://github.com/joventuraz)
 
 
 ## License
