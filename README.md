@@ -138,6 +138,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Rudger Gravestein] (https://github.com/Rud5G)
 * [Rakesh Patel] (https://github.com/rocpatel)
 * [Sean Carolan] (https://github.com/scarolan)
+* [Caedman 'Cads' Oakley] (https://github.com/Yokai)
 
 ## License
 
