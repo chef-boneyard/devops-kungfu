@@ -175,7 +175,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Martin Neiiendam](https://github.com/fracklen)
 * [Rory Bramwell](https://github.com/rbramwell)
 * [Jose Ventura](https://github.com/joventuraz)
-
+* [Rajesh Raheja](https://github.com/rraheja)
 
 ## License
 
