@@ -129,6 +129,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Medya Gh](https://github.com/medyagh)
 * [Richard Nixon](https://github.com/trickyearlobe)
 * [Chris Patti](http://www.feoh.org)
+<<<<<<< HEAD
 * [Amitraj Budhu](https://github.com/abudhu)
 * [Reuben Dunn](https://github.com/DefSol)
 * [Merritt Krakowitzer](https://github.com/mkrakowitzer)
@@ -176,6 +177,17 @@ velocity organizations, born from the experiences of its practitioners.
 * [Rory Bramwell](https://github.com/rbramwell)
 * [Jose Ventura](https://github.com/joventuraz)
 * [Rajesh Raheja](https://github.com/rraheja)
+* [Amitraj Budhu] (https://github.com/abudhu)
+* [Reuben Dunn] (https://github.com/DefSol)
+* [Merritt Krakowitzer] (https://github.com/mkrakowitzer)
+* [David Aronsohn] (https://github.com/tbunnyman)
+* [Oleg Sumarokov] (http://thgsn.org)
+* [Fahd Sultan] (https://github.com/fsultan)
+* [Jesse R. Adams] (https://github.com/jesseadams)
+* [Rudger Gravestein] (https://github.com/Rud5G)
+* [Rakesh Patel] (https://github.com/rocpatel)
+* [Sean Carolan] (https://github.com/scarolan)
+* [Caedman 'Cads' Oakley] (https://github.com/Yokai)
 
 ## License
 
