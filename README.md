@@ -189,6 +189,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Caedman 'Cads' Oakley] (https://github.com/Yokai)
 * [Yen-An Chen] (https://github.com/Yen168/)
 * [Nathan Haneysmith] (https://twitter.com/tmonk42)
+* [Uldis Karlovs-Karlovskis] (http://lv.linkedin.com/in/uldiskarlovskarlovskis)
 
 ## License
 
