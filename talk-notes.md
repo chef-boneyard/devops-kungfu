@@ -8,7 +8,7 @@
   <li> The resistance to a definition
   <li> The filling of the vacuum
   <li> Devops comes from the lived experience of the practitioner
-  <li> Making it, in all caes, unique to the practitioner
+  <li> Making it, in all cases, unique to the practitioner
   <li> We had a lot of overlapping experiences though
     <li> Relationship to failure
     <li> High trust, high interaction relationships with each other
