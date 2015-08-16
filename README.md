@@ -190,6 +190,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Yen-An Chen] (https://github.com/Yen168/)
 * [Nathan Haneysmith] (https://twitter.com/tmonk42)
 * [Uldis Karlovs-Karlovskis] (http://lv.linkedin.com/in/uldiskarlovskarlovskis)
+* [Bruno Collaer] (http://tiny.cc/3kp21x)
 
 ## License
 
