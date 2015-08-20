@@ -192,6 +192,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Uldis Karlovs-Karlovskis] (http://lv.linkedin.com/in/uldiskarlovskarlovskis)
 * [John Fitzpatrick] (https://github.com/johnfitzpatrick)
 * [Bruno Collaer] (http://tiny.cc/3kp21x)
+* [Kurt Crowley] (https://github.com/kurtcrowley)
 
 ## License
 
