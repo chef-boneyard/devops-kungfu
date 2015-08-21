@@ -193,6 +193,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [John Fitzpatrick] (https://github.com/johnfitzpatrick)
 * [Bruno Collaer] (http://tiny.cc/3kp21x)
 * [Kurt Crowley] (https://github.com/kurtcrowley)
+* [Richard Genthner] (https://github.com/moos3)
 
 ## License
 
