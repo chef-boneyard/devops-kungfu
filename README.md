@@ -194,6 +194,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Bruno Collaer] (http://tiny.cc/3kp21x)
 * [Kurt Crowley] (https://github.com/kurtcrowley)
 * [Richard Genthner] (https://github.com/moos3)
+* [Tim Mintner] (https://twitter.com/tmintner)
 
 ## License
 
