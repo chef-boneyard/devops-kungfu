@@ -191,6 +191,11 @@ velocity organizations, born from the experiences of its practitioners.
 * [Nathan Haneysmith] (https://twitter.com/tmonk42)
 * [Uldis Karlovs-Karlovskis] (http://lv.linkedin.com/in/uldiskarlovskarlovskis)
 * [Jovanka Damjanovic] (https://github.com/damjanovicj)
+* [John Fitzpatrick] (https://github.com/johnfitzpatrick)
+* [Bruno Collaer] (http://tiny.cc/3kp21x)
+* [Kurt Crowley] (https://github.com/kurtcrowley)
+* [Richard Genthner] (https://github.com/moos3)
+* [Tim Mintner] (https://twitter.com/tmintner)
 
 ## License
 
