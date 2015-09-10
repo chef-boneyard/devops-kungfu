@@ -197,6 +197,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Richard Genthner] (https://github.com/moos3)
 * [Tim Mintner] (https://twitter.com/tmintner)
 * [Conrad Watson] (https://github.com/infcloud01/)
+* [Joel Thimsen] (https://twitter.com/joelthimsen)
 
 ## License
 
