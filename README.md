@@ -198,6 +198,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Tim Mintner] (https://twitter.com/tmintner)
 * [Conrad Watson] (https://github.com/infcloud01/)
 * [Joel Thimsen] (https://twitter.com/joelthimsen)
+* [Corey Wagehoft] (https://github.com/coreywagehoft)
 
 ## License
 
