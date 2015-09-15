@@ -200,6 +200,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Joel Thimsen] (https://twitter.com/joelthimsen)
 * [Corey Wagehoft] (https://github.com/coreywagehoft)
 * [Łukasz Czyżykowski] (https://github.com/czyzykowski)
+* [Ruslans Scelkunovs] (https://github.com/ruslanss)
 
 ## License
 
