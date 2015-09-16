@@ -201,6 +201,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Corey Wagehoft] (https://github.com/coreywagehoft)
 * [Łukasz Czyżykowski] (https://github.com/czyzykowski)
 * [Ruslans Scelkunovs] (https://github.com/ruslanss)
+* [Leslie Carr](http://pony.repair/)
 
 ## License
 
