@@ -153,7 +153,6 @@ velocity organizations, born from the experiences of its practitioners.
 * [Mike Tavares](https://github.com/TavaTech)
 * [Jason Reslock](https://github.com/jreslock)
 * [Justin Franks](https://github.com/justintfranks)
-<<<<<<< HEAD
 * [Travis Spaulding](https://github.com/tspaulding295)
 * [Federico Castagnini](https://github.com/facastagnini)
 * [Paul Everton](https://github.com/patternpaul)
