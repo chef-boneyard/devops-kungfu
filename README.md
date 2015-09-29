@@ -153,6 +153,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Mike Tavares](https://github.com/TavaTech)
 * [Jason Reslock](https://github.com/jreslock)
 * [Justin Franks](https://github.com/justintfranks)
+<<<<<<< HEAD
 * [Travis Spaulding](https://github.com/tspaulding295)
 * [Federico Castagnini](https://github.com/facastagnini)
 * [Paul Everton](https://github.com/patternpaul)
@@ -204,6 +205,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Scott Ford](http://github.com/smford22)
 * [Eduardo Monesi] (http://github.com/emonesi)
 * [Leslie Carr](http://pony.repair/)
+* [Andrew S Thompson](https://github.com/andrewpsp)
 
 ## License
 
