@@ -203,6 +203,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Ruslans Scelkunovs] (https://github.com/ruslanss)
 * [Scott Ford](http://github.com/smford22)
 * [Eduardo Monesi] (http://github.com/emonesi)
+* [Leslie Carr](http://pony.repair/)
 
 ## License
 
