@@ -205,6 +205,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Eduardo Monesi] (http://github.com/emonesi)
 * [Leslie Carr](http://pony.repair/)
 * [Andrew S Thompson](https://github.com/andrewpsp)
+* [Josh Owens](https://github.com/jcache)
 
 ## License
 
