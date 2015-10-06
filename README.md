@@ -206,6 +206,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Leslie Carr](http://pony.repair/)
 * [Andrew S Thompson](https://github.com/andrewpsp)
 * [Josh Owens](https://github.com/jcache)
+* [Kris Timmerman](https://github.com/ktimmerman)
 
 ## License
 
