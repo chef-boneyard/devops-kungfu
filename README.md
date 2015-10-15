@@ -207,6 +207,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Andrew S Thompson](https://github.com/andrewpsp)
 * [Josh Owens](https://github.com/jcache)
 * [Kris Timmerman](https://github.com/ktimmerman)
+* [Antoine GAY](https://github.com/AntoineGa)
 
 ## License
 
