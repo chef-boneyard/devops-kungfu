@@ -209,6 +209,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Kris Timmerman](https://github.com/ktimmerman)
 * [Antoine GAY](https://github.com/AntoineGa)
 * [Ashley Knowles] (https://github.com/AshleyKnowles)
+* [Colin Tao] (https://github.com/lin-credible)
 
 ## License
 
