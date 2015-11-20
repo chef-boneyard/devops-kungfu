@@ -210,6 +210,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Antoine GAY](https://github.com/AntoineGa)
 * [Ashley Knowles] (https://github.com/AshleyKnowles)
 * [Colin Tao] (https://github.com/lin-credible)
+* [Rob Coward] (https://github.com/robcoward)
 
 ## License
 
