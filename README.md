@@ -211,6 +211,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Ashley Knowles] (https://github.com/AshleyKnowles)
 * [Colin Tao] (https://github.com/lin-credible)
 * [Rob Coward] (https://github.com/robcoward)
+* [Matthew Walter](https://github.com/ohaiwalt)
 
 ## License
 
