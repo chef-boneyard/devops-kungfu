@@ -14,7 +14,7 @@ practice our forms, and apply the style to your professional life, you can join
 our school by sending a pull request to this README file, and adding your name
 to the list of practitioners.
 
-The [slides are also available to viewing online](http://chef.github.io/devops-kungfu/).
+The [slides are available online](http://chef.github.io/devops-kungfu/).
 
 If you like most of what you see, but not all, or wish to emphasize different
 things about your style - but you agree on the same fundamental principles - you
