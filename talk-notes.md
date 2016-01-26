@@ -71,7 +71,7 @@
     <li> It moves to Forms - predetermined behaviors that can be combined into continuous sets of actions
     <li> It ends in Application - actually doing your Kung fu in the field, using what you have learned
   <li> TMTOWTDI is true and honest and important
-    <li> However - if you don't know how to do it, you could probably skip the 15+ year journey of difficulaty
+    <li> However - if you don't know how to do it, you could probably skip the 15+ year journey of difficulty
     <li> And practice the basics, learn the forms, and apply them in your life
 </ul>
 </slide>
@@ -126,7 +126,7 @@
   <li> Talib Kweli explained to me that artists amplify the movement they see in the world
     <li> Marvin Gaye didn't write What's Goin On and <li>then<li> the movement happened
     <li> The movement happened, and Marvin had to respond to, and amplify it, with his art
-  <li> That is my intenet here - I will use my platform to raise up the voices of those who are doing the work
+  <li> That is my intent here - I will use my platform to raise up the voices of those who are doing the work
     <li> And we can then leverage it as a platform to help each other
     <li> And to further our aims of having our workplace be a better place
 </ul>
@@ -161,7 +161,7 @@
   <li> These four things are the evolutionary arc of your practice - in the beginning, you learn from others
   <li> As you grow, you will use the forms others have used to learn about the deeper meaning and philosophy
   <li> The more you apply them in practice, the less reliant on the forms you will be - it all just becomes the natural flow
-  <li> 'Do not be timid about the scope or the influence - we are re-inventing the way we run businesses"
+  <li> 'Do not be timid about the scope or the influence - we are re-inventing the way we run businesses'
   <li> Leading you, and anyone else, to be where those of us with already strong Kung Fu are - uniquely suited to our task
 </ul>
 </slide>
@@ -201,7 +201,7 @@
 <slide>
 <h1>Principles of Chef Style DevOps Kung fu</h1>
 <ul>
-(It's not about whether you are good at it - it'sa bout the soul of our kung fu)
+(It's not about whether you are good at it - it's about the soul of our kung fu)
 (It's your intent)
 </ul>
 </slide>
@@ -216,7 +216,7 @@
 <h1>People -> Product -> Company</h1>
 <ul>
   <li> Both the producer and the consumer
-  <li> When yoyu do the right thing for the people, the right things happen for the product and the company
+  <li> When you do the right thing for the people, the right things happen for the product and the company
 </ul>
 </slide>
 
@@ -251,7 +251,7 @@
 <ul>
   <li> Voices, stupdity, similarity
   <li> You want harmony, thinking in different ways, bringing their skills to bear
-  <li> Good D&D parites are diverse
+  <li> Good D&D parties are diverse
 
 </ul>
 </slide>
@@ -553,7 +553,7 @@
 <slide>
 <h1>Infrastructure is code, and all code goes through the same workflow</h1>
 <ul>
-  <li> Applications are core
+  <li> Applications are code
   <li> Infrastructure is code
   <li> All code goes through the same workflow
 </ul>
@@ -573,7 +573,7 @@
 <ul>
   <li> From the operating system, network, applications, and your process
   <li> High resolution matters
-  <li> HAve as few systems as possible
+  <li> Have as few systems as possible
 </ul>
 </slide>
 
@@ -591,10 +591,10 @@
 <slide>
 <h1>Only alert on what is actionable</h1>
 <ul>
-  <li> Get the attention of the right humans.
+  <li> Get the attention of the right humans
   <li> As few alerts as possible
   <li> Routed to the people who can take action
-  <li> Start with the is it up alert (see also smoke testing)
+  <li> Start with the "is it up" alert (see also smoke testing)
   <li> Never create an alert that isn't actionable!
 </ul>
 </slide>
@@ -650,7 +650,7 @@
 <slide>
 <h1>Software for simplicity, extensibility, re-use</h1>
 <ul>
-  <li> Conway's Law “Interpersonal variability, that is the capability and behavior differences between programmers using the same language, tends to account for more differences between programs than a change of the programming language.”
+  <li> Conway's Law "Interpersonal variability, that is the capability and behavior differences between programmers using the same language, tends to account for more differences between programs than a change of the programming language."
   <li> Make a component as simple as it can be, but no more
   <li> Design for re-use when you can
     <li> CERN and the LXC - one framework for four experiemnts
@@ -685,7 +685,7 @@
 <h1>Breathe</h1>
 <ul>
   <li> Lets all take a minute and breathe
-  <li> Cauuse that was a lot
+  <li> Cause that was a lot
   <li> But we're not talking about a small thing - we're talking about changing the way we build and run our businesses
   <li> And it's the work of your entire career - so you've got some time to work on it
 
