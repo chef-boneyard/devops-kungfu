@@ -219,6 +219,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Ryan Morten](https://github.com/awesinine)
 * [Brad Knowles](https://github.com/bknowles)
 * [Bernard Ojengwa] (https://github.com/ojengwa)
+* [Adarsh Jupudi](https://github.com/jcadarsh)
 
 ## License
 
