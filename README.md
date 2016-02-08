@@ -221,6 +221,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Bernard Ojengwa] (https://github.com/ojengwa)
 * [Adarsh Jupudi](https://github.com/jcadarsh)
 * [Ben Vidulich](https://github.com/zl4bv)
+* [Sean Richwine](https://github.com/khaosoi)
 
 ## License
 
