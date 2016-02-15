@@ -224,6 +224,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Sean Richwine](https://github.com/khaosoi)
 * [Simon Fisher] (https://twitter.com/simfish85)
 * [Josué Padilla] (https://twitter.com/jpadif)
+* [Adrian Suteu] (https://twitter.com/adisuteu)
 
 ## License
 
