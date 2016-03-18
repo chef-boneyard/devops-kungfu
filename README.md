@@ -226,6 +226,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Josué Padilla] (https://twitter.com/jpadif)
 * [Adrian Suteu] (https://twitter.com/adisuteu)
 * [Tony Henson] (https://github.com/geektony)
+* [Dan Belling] (https://github.com/dbelling)
 
 ## License
 
