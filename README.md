@@ -227,6 +227,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Adrian Suteu] (https://twitter.com/adisuteu)
 * [Tony Henson] (https://github.com/geektony)
 * [Dan Belling] (https://github.com/dbelling)
+* [Spencer Owen] (http://spuder.github.io/)
 
 ## License
 
