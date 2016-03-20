@@ -228,6 +228,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Tony Henson] (https://github.com/geektony)
 * [Dan Belling] (https://github.com/dbelling)
 * [Spencer Owen] (http://spuder.github.io/)
+* [David Nye] (http://github.com/tekmage)
 
 ## License
 
