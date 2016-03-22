@@ -230,6 +230,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Spencer Owen] (http://spuder.github.io/)
 * [David Nye] (http://github.com/tekmage)
 * [Jose Hidalgo] (http://github.com/joseche)
+* [Miles Sorlie] (http://github.com/sorliem)
 
 ## License
 
