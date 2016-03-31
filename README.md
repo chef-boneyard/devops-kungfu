@@ -231,6 +231,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [David Nye] (http://github.com/tekmage)
 * [Jose Hidalgo] (http://github.com/joseche)
 * [Miles Sorlie] (http://github.com/sorliem)
+* [Andrew Zeswitz] (http://github.com/azeswitz)
 
 ## License
 
