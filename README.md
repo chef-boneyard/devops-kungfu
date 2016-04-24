@@ -232,6 +232,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Miles Sorlie] (http://github.com/sorliem)
 * [Andrew Zeswitz] (http://github.com/azeswitz)
 * [Paras Patel] (https://github.com/PatelParas)
+* [Matija Grabnar] (https://www.linkedin.com/in/matija-grabnar-a209b)
 
 ## License
 
