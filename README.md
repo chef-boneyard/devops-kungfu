@@ -234,6 +234,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Paras Patel] (https://github.com/PatelParas)
 * [Matija Grabnar] (https://www.linkedin.com/in/matija-grabnar-a209b)
 * [Tomasz Tarczynski] (https://github.com/ttarczynski)
+* [Kamil Herbik] (https://github.com/khdevel)
 
 ## License
 
