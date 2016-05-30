@@ -237,6 +237,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Kamil Herbik] (https://github.com/khdevel)
 * [Lucas do Amaral Saboya] (http://helabs.com/br/a-empresa/lucas-saboya/)
 * [Tatsuya Suzuki](https://www.linkedin.com/in/tatsuya-suzuki-24605a21)
+* [Karsten Müller] (https://github.com/karstenmueller)
 
 ## License
 
