@@ -241,6 +241,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Blake Irvin] (https://github.com/bixu)
 * [Sebastian Sejzer] (https://github.com/ssejzer)
 * [Xander Grzywinski] (https://github.com/salaxander)
+* [Ghislain Bourgeois] (https://github.com/ghislainbourgeois)
 
 ## License
 
