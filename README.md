@@ -243,6 +243,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Xander Grzywinski] (https://github.com/salaxander)
 * [Ghislain Bourgeois] (https://github.com/ghislainbourgeois)
 * [Roman Bobrovski] (https://github.com/rombob)
+* [Carlos Nunez] (https://github.com/carlosonunez)
 
 ## License
 
