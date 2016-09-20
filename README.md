@@ -244,6 +244,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Ghislain Bourgeois] (https://github.com/ghislainbourgeois)
 * [Roman Bobrovski] (https://github.com/rombob)
 * [Carlos Nunez] (https://github.com/carlosonunez)
+* [Phillip Roberts] (https://ingenium.solutions)
 
 ## License
 
