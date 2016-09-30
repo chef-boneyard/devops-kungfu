@@ -245,6 +245,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Roman Bobrovski] (https://github.com/rombob)
 * [Carlos Nunez] (https://github.com/carlosonunez)
 * [Phillip Roberts] (https://ingenium.solutions)
+* [John Paul Herold] (https://github.com/dailyherold)
 
 ## License
 
