@@ -8,10 +8,13 @@ experience of many DevOps professionals. It is a collaborative space, where all
 practitioners of the style can come together to create a reference for how to
 build up their own DevOps Kung fu, and teach others how to improve theirs.
 
-You should start by [watching the presentation](https://www.youtube.com/watch?v=_DEToXsgrPc), then come back here. If you agree
-with the fundamental principles, wish to practice our forms, and apply the style
-to your professional life, you can join our school by sending a pull request to
-this README file, and adding your name to the list of practitioners.
+You should start by [watching the presentation](https://www.youtube.com/watch?v=_DEToXsgrPc),
+then come back here. If you agree with the fundamental principles, wish to
+practice our forms, and apply the style to your professional life, you can join
+our school by sending a pull request to this README file, and adding your name
+to the list of practitioners.
+
+The [slides are available online](http://chef.github.io/devops-kungfu/).
 
 If you like most of what you see, but not all, or wish to emphasize different
 things about your style - but you agree on the same fundamental principles - you
@@ -166,7 +169,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Jean Paul Mugizi] (https://github.com/mugizico)
 * [Randall Morse](http://rmorse.com)
 * [Petr Michalec](https://github.com/epcim)
-* [Carlos Camacho](https://github.com/carlosdcg)
+* [Carlos Camacho](https://github.com/ccamacho)
 * [Joe Goggins](https://github.com/joegoggins)
 * [Emir Ozer](https://github.com/emirozer)
 * [Anshul Sharma](https://github.com/justanshulsharma)
@@ -208,6 +211,41 @@ velocity organizations, born from the experiences of its practitioners.
 * [Josh Owens](https://github.com/jcache)
 * [Kris Timmerman](https://github.com/ktimmerman)
 * [Antoine GAY](https://github.com/AntoineGa)
+* [Ashley Knowles] (https://github.com/AshleyKnowles)
+* [Rob Coward] (https://github.com/robcoward)
+* [Matthew Walter](https://github.com/ohaiwalt)
+* [Chris McFee](https://github.com/mickfeech)
+* [Ryan Morten](https://github.com/awesinine)
+* [Brad Knowles](https://github.com/bknowles)
+* [Bernard Ojengwa] (https://github.com/ojengwa)
+* [Adarsh Jupudi](https://github.com/jcadarsh)
+* [Ben Vidulich](https://github.com/zl4bv)
+* [Sean Richwine](https://github.com/khaosoi)
+* [Simon Fisher] (https://twitter.com/simfish85)
+* [Josué Padilla] (https://twitter.com/jpadif)
+* [Adrian Suteu] (https://twitter.com/adisuteu)
+* [Tony Henson] (https://github.com/geektony)
+* [Dan Belling] (https://github.com/dbelling)
+* [Spencer Owen] (http://spuder.github.io/)
+* [David Nye] (http://github.com/tekmage)
+* [Jose Hidalgo] (http://github.com/joseche)
+* [Miles Sorlie] (http://github.com/sorliem)
+* [Andrew Zeswitz] (http://github.com/azeswitz)
+* [Paras Patel] (https://github.com/PatelParas)
+* [Matija Grabnar] (https://www.linkedin.com/in/matija-grabnar-a209b)
+* [Tomasz Tarczynski] (https://github.com/ttarczynski)
+* [Kamil Herbik] (https://github.com/khdevel)
+* [Lucas do Amaral Saboya] (http://helabs.com/br/a-empresa/lucas-saboya/)
+* [Tatsuya Suzuki](https://www.linkedin.com/in/tatsuya-suzuki-24605a21)
+* [Karsten Müller] (https://github.com/karstenmueller)
+* [Blake Irvin] (https://github.com/bixu)
+* [Sebastian Sejzer] (https://github.com/ssejzer)
+* [Xander Grzywinski] (https://github.com/salaxander)
+* [Ghislain Bourgeois] (https://github.com/ghislainbourgeois)
+* [Roman Bobrovski] (https://github.com/rombob)
+* [Carlos Nunez] (https://github.com/carlosonunez)
+* [Phillip Roberts] (https://ingenium.solutions)
+* [John Paul Herold] (https://github.com/dailyherold)
 
 ## License
 
