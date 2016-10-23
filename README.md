@@ -30,6 +30,7 @@ velocity organizations, born from the experiences of its practitioners.
 ## Practitioners of Chef Style DevOps
 
 * [Adam Jacob](http://chef.io)
+* [Darin Luckie] (https://github.com/luckied)
 * [Chris Nandor](http://pudge.net/)
 * [Kenneth L McDowell II](https://github.com/kmcdowell85)
 * [Parth Monga](https://github.com/Parthmonga)
