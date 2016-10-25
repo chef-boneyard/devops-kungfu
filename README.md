@@ -247,6 +247,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Phillip Roberts] (https://ingenium.solutions)
 * [John Paul Herold] (https://github.com/dailyherold)
 * [Lachlan White] (https://au.linkedin.com/in/lachlan-white-96829059)
+* [Darin Luckie] (https://github.com/luckied)
 
 ## License
 
