@@ -248,6 +248,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [John Paul Herold] (https://github.com/dailyherold)
 * [Lachlan White] (https://au.linkedin.com/in/lachlan-white-96829059)
 * [Darin Luckie] (https://github.com/luckied)
+* [Matt Tunny] (https://github.com/MattTunny)
 
 ## License
 
