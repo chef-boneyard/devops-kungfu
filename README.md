@@ -250,6 +250,8 @@ velocity organizations, born from the experiences of its practitioners.
 * [Darin Luckie] (https://github.com/luckied)
 * [Matt Tunny] (https://github.com/MattTunny)
 * [Ryan Brown] (https://github.com/thatbuzzguy)
+* [Ralph Brunner] (https://github.com/ralbrunn)
+
 
 ## License
 
