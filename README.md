@@ -251,6 +251,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Matt Tunny] (https://github.com/MattTunny)
 * [Ryan Brown] (https://github.com/thatbuzzguy)
 * [Ralph Brunner] (https://github.com/ralbrunn)
+* [Karl Fischer] (https://twitter.com/kmf)
 
 
 ## License
