@@ -252,6 +252,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Ryan Brown] (https://github.com/thatbuzzguy)
 * [Ralph Brunner] (https://github.com/ralbrunn)
 * [Karl Fischer] (https://twitter.com/kmf)
+* [Krzysztof Kowalczyk](https://github.com/krzkowalczyk)
 
 
 ## License
