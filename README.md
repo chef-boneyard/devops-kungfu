@@ -8,10 +8,13 @@ experience of many DevOps professionals. It is a collaborative space, where all
 practitioners of the style can come together to create a reference for how to
 build up their own DevOps Kung fu, and teach others how to improve theirs.
 
-You should start by [watching the presentation](https://www.youtube.com/watch?v=_DEToXsgrPc), then come back here. If you agree
-with the fundamental principles, wish to practice our forms, and apply the style
-to your professional life, you can join our school by sending a pull request to
-this README file, and adding your name to the list of practitioners.
+You should start by [watching the presentation](https://www.youtube.com/watch?v=_DEToXsgrPc),
+then come back here. If you agree with the fundamental principles, wish to
+practice our forms, and apply the style to your professional life, you can join
+our school by sending a pull request to this README file, and adding your name
+to the list of practitioners.
+
+The [slides are available online](http://chef.github.io/devops-kungfu/).
 
 If you like most of what you see, but not all, or wish to emphasize different
 things about your style - but you agree on the same fundamental principles - you
