@@ -255,6 +255,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Krzysztof Kowalczyk](https://github.com/krzkowalczyk)
 * [Daniel Bright](https://github.com/danielcbright)
 * [Deni Cavalcanti](https://github.com/dpcavalcanti)
+* [Matthew Haines](https://github.com/forensicsguy20012004)
 
 
 ## License
