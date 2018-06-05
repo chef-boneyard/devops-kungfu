@@ -257,7 +257,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Deni Cavalcanti](https://github.com/dpcavalcanti)
 * [Radek Wojcik](https://github.com/radzhome)
 * [Matthew Haines](https://github.com/forensicsguy20012004)
-
+* [Eric Magalhães](https://emagalha.es)
 
 ## License
 
