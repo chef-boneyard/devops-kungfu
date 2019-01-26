@@ -1,3 +1,5 @@
+const sass = require('node-sass');
+
 /* global module:false */
 module.exports = function(grunt) {
   var port = grunt.option('port') || 8000;
@@ -50,7 +52,11 @@ module.exports = function(grunt) {
           'css/theme/solarized.css': 'css/theme/source/solarized.scss',
           'css/theme/blood.css': 'css/theme/source/blood.scss'
         }
-      }
+      },
+     options: {
+			implementation: sass,
+			sourceMap: true
+		}		    
     },
 
     autoprefixer: {
@@ -95,7 +101,7 @@ module.exports = function(grunt) {
     connect: {
       server: {
         options: {
-          port: port,
+          port: 8000,
           base: '.',
                     livereload: true,
                     open: true
