@@ -258,6 +258,7 @@ velocity organizations, born from the experiences of its practitioners.
 * [Radek Wojcik](https://github.com/radzhome)
 * [Matthew Haines](https://github.com/forensicsguy20012004)
 * [Eric Magalhães](https://emagalha.es)
+* [Leon P Johnson](https://www.linkedin.com/in/leon-p-johnson-93327b12b)
 
 ## License
 
