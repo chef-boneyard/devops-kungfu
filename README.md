@@ -260,7 +260,8 @@ velocity organizations, born from the experiences of its practitioners.
 * [Eric Magalhães](https://emagalha.es)
 * [Leon P Johnson](https://www.linkedin.com/in/leon-p-johnson-93327b12b)
 * [Anthony Rees](https://github.com/anthonygrees)
-* [Mahattam Tomar](hhttps://github.com/mattyait)
+* [Mahattam Tomar](https://github.com/mattyait)
+* [Phil Cogbill](https://github.com/threeiem)
 
 ## License
 
